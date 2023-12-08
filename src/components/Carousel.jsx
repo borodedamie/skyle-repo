@@ -24,7 +24,7 @@ const Carousel = () => {
           perView: 4,
         },
       },
-      gap: 0,
+      gap: 1,
       autoplay: 3000,
     }).mount();
   }, []);
