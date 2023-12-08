@@ -12,7 +12,7 @@ const Carousel = () => {
       perView: 4,
       breakpoints: {
         420: {
-          perView: 1,
+          perView: 1.5,
         },
         768: {
           perView: 2.5,
@@ -33,7 +33,7 @@ const Carousel = () => {
     <div>
       <div className="glide" style={{ backgroundColor: "#0C0C0C" }}>
         <div className="glide__track" data-glide-el="track">
-          <div className="glide__slides h-[310px] md:h-[498px]  ">
+          <div className="glide__slides h-[410px] md:h-[498px]  ">
             {carousel.map((carouself, index) => {
               return (
                 <div key={index} className="glide__slide ">
