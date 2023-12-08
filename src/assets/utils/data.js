@@ -191,6 +191,7 @@ import dentalcare from "../dentalcare.webp";
 import peexoo from '../peexoo.webp' 
 export const svgCodes = [
   {
+    designs: butera,
     id: 8,
     pathname: "butera",
     brand: butera,
@@ -218,6 +219,7 @@ export const svgCodes = [
     numberOfImages1: 5,
   },
   {
+    designs: luxury,
     id: 9,
     pathname: "luxury-car-rentals",
     brand: luxury,
@@ -235,12 +237,13 @@ export const svgCodes = [
     two: carrsecond,
     three: carrthird,
     numberOfImages: 3,
-    eleven: mcarfirst,
+    eleven: mcthird,
     twelve: mcarsecond,
-    thirteen: mcthird,
+    thirteen: mcarfirst,
     numberOfImages1: 3,
   },
   {
+    designs: chy,
     id: 14,
     pathname: "bella-yoghurt",
     brand: chy,
@@ -258,13 +261,14 @@ export const svgCodes = [
     two: bellasecond,
     // // three: bellathird,
     numberOfImages: 2,
-    eleven: mbfirst,
-    twelve: mbsecond,
-    thirteen: mbthird,
-    fourteen: mblast,
+    eleven: mblast,
+    twelve: mbthird,
+    thirteen: mbsecond,
+    fourteen: mbfirst,
     numberOfImages1: 4,
   },
   {
+    designs: majesticfx,
     id: 2,
     pathname: "majestictm",
     brand: majestictm,
