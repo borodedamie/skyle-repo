@@ -44,7 +44,7 @@ const Workimages = () => {
               <Link key={p} to={`/works/${svgCode.pathname}`}>
                 <img
                   
-                  className="h-fit w-[80rem] cursor-pointer"
+                  className="md:h-fit md:w-[80rem] cursor-pointer"
                   src={svgCode.designs}
                 />
               </Link>
@@ -54,7 +54,7 @@ const Workimages = () => {
        
       </div>
       <NavLink to="/portfolio">
-          <div className="flex mb-[5rem] md:hidden mx-auto justify-center items-center">
+          <div className="flex mb-[5rem] relative z-[10] md:hidden mx-auto justify-center items-center">
             <Button title="view more works" />
           </div>
         </NavLink>

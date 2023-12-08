@@ -10,7 +10,7 @@ const WorksTemplate = () => {
         <div className="cursor-pointer relative z-10" key={page.id}>
           <Link to={`/works/${page.pathname}`}>
             {page.pathname}
-            <img className="w-[50rem] h-fit" src={page.brand} alt={page.pathname} />
+            <img className="md:h-fit md:w-[50rem]" src={page.brand} alt={page.pathname} />
           </Link>
         </div>
       ))}
