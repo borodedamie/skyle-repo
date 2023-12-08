@@ -12,7 +12,7 @@ const Carousel = () => {
       perView: 4,
       breakpoints: {
         420: {
-          perView: 1.5,
+          perView: 1,
         },
         768: {
           perView: 2.5,
@@ -24,7 +24,7 @@ const Carousel = () => {
           perView: 4,
         },
       },
-      gap: 5,
+      gap: 0,
       autoplay: 3000,
     }).mount();
   }, []);

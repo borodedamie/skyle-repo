@@ -100,87 +100,87 @@ import cuethird from "../cuethird.webp";
 import cuesecond from "../cuesecond.webp";
 import bellafirst from "../bellafirst.webp";
 import bellasecond from "../bellasecond.webp";
-// import mchiro from "../mchiro.svg";
-// import mcapsule from "../mcapsule.svg";
-// import menv from "../menv.svg";
-// import mthumb from "../mthumb.svg";
-// import mmed from "../mmed.svg";
-// import mbag from "../mbag.svg";
-// import mcircle from "../mcircle.svg";
-// import mround from "../mround.svg";
-// import mpurple from "../mpurple.svg";
-// import mletter1 from "../mletter.svg";
-// import crchiro from "../crchiro.svg";
-// import mflag from "../mflag.svg";
-// import mpost from "../mpost.svg";
-// import mmajestic from '../mmajestic.svg'
-// import msleek from '../msleek.svg'
-// import mdouble from '../mdouble.svg'
-// import myellow from '../myellow.svg'
-// import mtripple from '../mtripple.svg'
-// import mphone from '../mphone.svg'
-// import menvelope from '../menvelope.svg'
-// import mcard from '../mcard.svg'
-// import mtee from '../mtee.svg'
-// import mjacket from '../mjacket.svg'
-// import mcup from '../mcup.svg'
-// import mfolder from '../mfolder.svg'
-// import mforex from '../mforex.svg'
-// import myyellow from '../myyelow.svg'
-// import mdark from '../mdark.svg'
-// import mnurse from '../mnurse.svg'
-// import mhealth from '../mhealth.svg'
-// import mslant from '../mslant.svg'
-// import mhlong from '../mhlong.svg'
-// import mhdesktop from '../mhdesktop.svg'
-// import mnnairobi from '../mnnairobi.svg'
-// import mnslant from '../mnslant.svg'
-// import mnlong from '../mnlong.svg'
-// import mnleft from '../mnleft.svg'
-// import mnlaptop from '../mnlaptop.svg'
-// import mggym from '../mggym.svg'
-// import mgtriple from '../mgtriple.svg'
-// import mgthird from '../mgthird.svg'
-// import mglong from '../mglong.svg'
-// import mgfour from '../mgfour.svg'
-// import mglaptop from '../mglaptop.svg'
-// import msparkle from '../msparkle.svg'
-// import msparkle3 from '../msparkle3.svg'
-// import msparkle2 from '../msparkle2.svg'
-// import mslong from '../mslong.svg'
-// import mslaptop from '../mslaptop.svg'
-// import mloki from '../mloki.svg'
-// import mloki2 from '../mloki2.svg'
-// import mloki3 from '../mloki3.svg'
-// import mllong from '../mllong.svg'
-// import mbbutera from '../mbbutera.svg'
-// import mllaptop from '../mllaptop.svg'
-// import mbutera1 from '../mbutera1.svg'
-// import mbuteralong from '../mbuteralong.svg'
-// import mblaptop from '../mblaptop.svg'
-// import mbuterafirst from '../mbuterafirst.svg'
-// import mcarfirst from '../mcarfirst.svg'
-// import mcarsecond from '../mcarsecond.svg'
-// import mcthird from '../mcthird.svg'
-// import mdfirst from '../mdfirst.svg'
-// import mdsecond from '../mdsecond.svg'
-// import mdlast from '../mdlast.svg'
-// import mcfirst from '../mcfirst.svg'
-// import mcsecond from '../mcsecond.svg'
-// import mcthree from '../mcthree.svg'
-// import mclast from '../mclast.svg'
-// import mifirst from '../mifirst.svg'
-// import misecond from '../misecond.svg'
-// import mithree from '../mithree.svg'
-// import milast from '../mifour.svg'
-// import mpsecond from '../mpsecond.svg'
-// import mpfirst from '../mpfirst.svg'
-// import mpthird from '../mpthird.svg'
-// import mplast from '../mplast.svg'
-// import mbfirst from '../mbfirst.svg'
-// import mbsecond from '../mbsecond.svg'
-// import mbthird from '../mbthird.svg'
-// import mblast from '../mblast.svg'
+import mchiro from "../mchiro.webp";
+import mcapsule from "../mcapsule.webp";
+import menv from "../menv.webp";
+import mthumb from "../mthumb.webp";
+import mmed from "../mmed.webp";
+import mbag from "../mbag.webp";
+import mcircle from "../mcircle.webp";
+import mround from "../maround.webp";
+import mpurple from "../mpurple.webp";
+import mletter1 from "../mletter1.webp";
+import crchiro from "../crchiro.webp";
+import mflag from "../mflag.webp";
+import mpost from "../mpost.webp";
+import mmajestic from '../mmajestic.webp'
+import msleek from '../msleek.webp'
+import mdouble from '../mdouble.webp'
+import myellow from '../myellow.webp'
+import mtripple from '../mtripple.webp'
+import mphone from '../mphone.webp'
+import menvelope from '../menvelope.webp'
+import mcard from '../mcard.webp'
+import mtee from '../mtee.webp'
+import mjacket from '../mjacket.webp'
+import mcup from '../mcup.webp'
+import mfolder from '../mfolder.webp'
+import mforex from '../mforex.webp'
+import myyellow from '../myyellow.webp'
+import mdark from '../mdark.webp'
+import mnurse from '../mnurse.webp'
+import mhealth from '../mhealth.webp'
+import mslant from '../mslant.webp'
+import mhlong from '../mhlong.webp'
+import mhdesktop from '../mhdesktop.webp'
+import mnnairobi from '../mnnairobi.webp'
+import mnslant from '../mnslant.webp'
+import mnlong from '../mnlong.webp'
+import mnleft from '../mnleft.webp'
+import mnlaptop from '../mnlaptop.webp'
+import mggym from '../mggym.webp'
+import mgtriple from '../mgtriple.webp'
+import mgthird from '../mgthird.webp'
+import mglong from '../mglong.webp'
+import mgfour from '../mgfour.webp'
+import mglaptop from '../mglaptop.webp'
+import msparkle from '../msparkle.webp'
+import msparkle3 from '../msparkle3.webp'
+import msparkle2 from '../msparkle2.webp'
+import mslong from '../mslong.webp'
+import mslaptop from '../mslaptop.webp'
+import mloki from '../mloki.webp'
+import mloki2 from '../mloki2.webp'
+import mloki3 from '../mloki3.webp'
+import mllong from '../mllong.webp'
+import mbbutera from '../mbbutera.webp'
+import mllaptop from '../mllaptop.webp'
+import mbutera1 from '../mbutera1.webp'
+import mbuteralong from '../mbutetralong.webp'
+import mblaptop from '../mblaptop.webp'
+import mbuterafirst from '../mbuterafirst.webp'
+import mcarfirst from '../mcarfirst.webp'
+import mcarsecond from '../mcarsecond.webp'
+import mcthird from '../mcthird.webp'
+import mdfirst from '../mdfirst.webp'
+import mdsecond from '../mdsecond.webp'
+import mdlast from '../mdlast.webp'
+import mcfirst from '../mcfirst.webp'
+import mcsecond from '../mcsecond.webp'
+import mcthree from '../mcthree.webp'
+import mclast from '../mclast.webp'
+import mifirst from '../mifirst.webp'
+import misecond from '../misecond.webp'
+import mithree from '../mithree.webp'
+import milast from '../milast.webp'
+import mpsecond from '../mpsecond.webp'
+import mpfirst from '../mpfirst.webp'
+import mpthird from '../mpthird.webp'
+import mplast from '../mplast.webp'
+import mbfirst from '../mbfirst.webp'
+import mbsecond from '../mbsecond.webp'
+import mbthird from '../mbthird.webp'
+import mblast from '../mblast.webp'
 import cue from "../cue.webp";
 import come from "../come.png";
 import health100 from "../health100.webp";
@@ -191,7 +191,6 @@ import dentalcare from "../dentalcare.webp";
 import peexoo from '../peexoo.webp' 
 export const svgCodes = [
   {
-    designs: butera,
     id: 8,
     pathname: "butera",
     brand: butera,
@@ -205,21 +204,20 @@ export const svgCodes = [
     date1: "August 2022",
     category: "Logo Design",
     logo: buteralogo,
-    // // one: bfirst,
-    // two: bsecond,
-    // three: bthird,
-    // four: bfour,
-    // // five: bfive,
-    // numberOfImages: 3,
-    // eleven: mbuterafirst,
-    // twelve: mbbutera,
-    // thirteen: mbutera1,
-    // fourteen: mbuteralong,
-    // fifteen: mblaptop,
-    // numberOfImages1: 5,
+    one: bfirst,
+    two: bsecond,
+    three: bthird,
+    four: bfour,
+    // five: bfive,
+    numberOfImages: 4,
+    eleven: mbuterafirst,
+    twelve: mbbutera,
+    thirteen: mbutera1,
+    fourteen: mbuteralong,
+    fifteen: mblaptop,
+    numberOfImages1: 5,
   },
   {
-    designs: luxury,
     id: 9,
     pathname: "luxury-car-rentals",
     brand: luxury,
@@ -233,17 +231,16 @@ export const svgCodes = [
     date1: "Sept. 2021",
     category: "Mobile App Design",
     logo: carrentalslogo,
-    // one: carrfirst,
-    // // two: carrsecond,
-    // three: carrthird,
-    // numberOfImages: 2,
-    // eleven: mcarfirst,
-    // twelve: mcarsecond,
-    // thirteen: mcthird,
-    // numberOfImages1: 3,
+    one: carrfirst,
+    two: carrsecond,
+    three: carrthird,
+    numberOfImages: 3,
+    eleven: mcarfirst,
+    twelve: mcarsecond,
+    thirteen: mcthird,
+    numberOfImages1: 3,
   },
   {
-    designs: chy,
     id: 14,
     pathname: "bella-yoghurt",
     brand: chy,
@@ -257,18 +254,17 @@ export const svgCodes = [
     date1: "Sept. 2020",
     category: "Print Ad",
     logo: dentalwhite,
-    // one: bellafirst,
-    // two: bellasecond,
+    one: bellafirst,
+    two: bellasecond,
     // // three: bellathird,
-    // numberOfImages: 2,
-    // eleven: mbfirst,
-    // twelve: mbsecond,
-    // thirteen: mbthird,
-    // fourteen: mblast,
-    // numberOfImages1: 4,
+    numberOfImages: 2,
+    eleven: mbfirst,
+    twelve: mbsecond,
+    thirteen: mbthird,
+    fourteen: mblast,
+    numberOfImages1: 4,
   },
   {
-    designs: majesticfx,
     id: 2,
     pathname: "majestictm",
     brand: majestictm,
@@ -282,32 +278,37 @@ export const svgCodes = [
     date1: "March, 2020",
     category: "Logo Design",
     logo: majesticfxlogo,
-    // one: majesticlarge,
-    // two: majesticdark,
-    // three: majesticzz,
-    // four: phone,
-    // five: card,
-    // six: cup,
-    // seven: trend,
-    // eight: mletter,
-    // nine: house,
-    // numberOfImages: 9,
-    // eleven: mmajestic,
-    // twelve: msleek,
-    // thirteen: mdouble,
-    // fourteen: myellow,
-    // fifteen: mtripple,
-    // sixteen: mphone,
-    // seventeen: menvelope,
-    // eighteen: mcard,
-    // nineteen: mtee,
-    // twenty: mjacket,
-    // twentyone: mcup,
-    // twentytwo: mfolder,
-    // twentythree: mforex,
-    // twentyfour: myyellow,
-    // twentyfive: mdark,
-    // numberOfImages1: 15,
+    one: majesticlarge,
+    two: majesticdark,
+    three: majesticzz,
+    four: mmfx,
+    five: triple,
+    six: phone,
+    seven: card,
+    eight: card2,
+    nine: hoodie,
+    ten: cup,
+    tenone: bagww,
+    tentwo: trend,
+    tenthree: mletter,
+    tenfour: house,
+    numberOfImages: 14,
+    eleven: mmajestic,
+    twelve: msleek,
+    thirteen: mdouble,
+    fourteen: myellow,
+    fifteen: mtripple,
+    sixteen: mphone,
+    seventeen: mcard,
+    eighteen: menvelope,
+    nineteen: mtee,
+    twenty: mjacket,
+    twentyone: mcup,
+    twentytwo: mfolder,
+    twentythree: mforex,
+    twentyfour: myyellow,
+    twentyfive: mdark,
+    numberOfImages1: 15,
   },
 ];
 
@@ -336,21 +337,21 @@ export const worksPages = [
     eight: brand,
     nine: letter,
     ten: street,
-    // eleven: mchiro,
-    // twelve: mcapsule,
-    // thirteen: menv,
-    // fourteen: mthumb,
-    // fifteen: mmed,
-    // sixteen: mbag,
-    // seventeen: mcircle,
-    // eighteen: mround,
-    // nineteen: mpurple,
-    // twenty: mletter1,
-    // twentyone: crchiro,
-    // twentytwo: mflag,
-    // twentythree: mpost,
     numberOfImages: 10,
-    // numberOfImages1: 13,
+    eleven: mchiro,
+    twelve: mcapsule,
+    thirteen: menv,
+    fourteen: mthumb,
+    fifteen: mmed,
+    sixteen: mbag,
+    seventeen: mround,
+    eighteen: mcircle,
+    nineteen: mpurple,
+    twenty: mletter1,
+    twentyone: crchiro,
+    twentytwo: mflag,
+    twentythree: mpost,
+    numberOfImages1: 13,
   },
 
   {
@@ -381,25 +382,23 @@ export const worksPages = [
     tentwo: trend,
     tenthree: mletter,
     tenfour: house,
-
     numberOfImages: 14,
-
-    // eleven: mmajestic,
-    // twelve: msleek,
-    // thirteen: mdouble,
-    // fourteen: myellow,
-    // fifteen: mtripple,
-    // sixteen: mphone,
-    // seventeen: menvelope,
-    // eighteen: mcard,
-    // nineteen: mtee,
-    // twenty: mjacket,
-    // twentyone: mcup,
-    // twentytwo: mfolder,
-    // twentythree: mforex,
-    // twentyfour: myyellow,
-    // twentyfive: mdark,
-    // numberOfImages1: 15,
+    eleven: mmajestic,
+    twelve: msleek,
+    thirteen: mdouble,
+    fourteen: myellow,
+    fifteen: mtripple,
+    sixteen: mphone,
+    seventeen: mcard,
+    eighteen: menvelope,
+    nineteen: mtee,
+    twenty: mjacket,
+    twentyone: mcup,
+    twentytwo: mfolder,
+    twentythree: mforex,
+    twentyfour: myyellow,
+    twentyfive: mdark,
+    numberOfImages1: 15,
   },
   {
     id: 3,
@@ -421,12 +420,12 @@ export const worksPages = [
     four: hyour,
     five: hlaptop,
     numberOfImages: 5,
-    // eleven: mhealth,
-    // twelve: mnurse,
-    // thirteen: mslant,
-    // fourteen: mhlong,
-    // fifteen: mhdesktop,
-    // numberOfImages1: 5,
+    eleven: mhealth,
+    twelve: mnurse,
+    thirteen: mslant,
+    fourteen: mhlong,
+    fifteen: mhdesktop,
+    numberOfImages1: 5,
   },
   {
     id: 4,
@@ -447,14 +446,13 @@ export const worksPages = [
     three: nthird,
     four: nfour,
     five: nlaptop,
-
     numberOfImages: 5,
-    // eleven: mnnairobi,
-    // twelve: mnslant,
-    // thirteen: mnleft,
-    // fourteen: mnlong,
-    // fifteen: mnlaptop,
-    // numberOfImages1: 5,
+    eleven: mnnairobi,
+    twelve: mnslant,
+    thirteen: mnleft,
+    fourteen: mnlong,
+    fifteen: mnlaptop,
+    numberOfImages1: 5,
   },
   {
     id: 5,
@@ -477,13 +475,13 @@ export const worksPages = [
     five: gyour,
     six: glaptop,
     numberOfImages: 6,
-    // eleven: mggym,
-    // twelve: mgtriple,
-    // thirteen: mgthird,
-    // fourteen: mglong,
-    // fifteen: mgfour,
-    // sixteen: mglaptop,
-    // numberOfImages1: 6,
+    eleven: mggym,
+    twelve: mgtriple,
+    thirteen: mgthird,
+    fourteen: mglong,
+    fifteen: mgfour,
+    sixteen: mglaptop,
+    numberOfImages1: 6,
   },
   {
     id: 6,
@@ -505,12 +503,12 @@ export const worksPages = [
     four: sfour,
     five: slaptop,
     numberOfImages: 5,
-    // eleven: msparkle,
-    // twelve: msparkle2,
-    // thirteen: msparkle3,
-    // fourteen: mslong,
-    // fifteen: mslaptop,
-    // numberOfImages1: 5,
+    eleven: msparkle,
+    twelve: msparkle2,
+    thirteen: msparkle3,
+    fourteen: mslong,
+    fifteen: mslaptop,
+    numberOfImages1: 5,
   },
   {
     id: 7,
@@ -532,12 +530,12 @@ export const worksPages = [
     four: lfour,
     five: lfive,
     numberOfImages: 5,
-    // eleven: mloki,
-    // twelve: mloki2,
-    // thirteen: mloki3,
-    // fourteen: mllong,
-    // fifteen: mllaptop,
-    // numberOfImages1: 5,
+    eleven: mloki,
+    twelve: mloki2,
+    thirteen: mloki3,
+    fourteen: mllong,
+    fifteen: mllaptop,
+    numberOfImages1: 5,
   },
   {
     id: 8,
@@ -559,12 +557,12 @@ export const worksPages = [
     four: bfour,
     // five: bfive,
     numberOfImages: 4,
-    // eleven: mbuterafirst,
-    // twelve: mbbutera,
-    // thirteen: mbutera1,
-    // fourteen: mbuteralong,
-    // fifteen: mblaptop,
-    // numberOfImages1: 5,
+    eleven: mbuterafirst,
+    twelve: mbbutera,
+    thirteen: mbutera1,
+    fourteen: mbuteralong,
+    fifteen: mblaptop,
+    numberOfImages1: 5,
   },
   {
     id: 9,
@@ -584,10 +582,10 @@ export const worksPages = [
     two: carrsecond,
     three: carrthird,
     numberOfImages: 3,
-    // eleven: mcarfirst,
-    // twelve: mcarsecond,
-    // thirteen: mcthird,
-    // numberOfImages1: 3,
+    eleven: mcthird,
+    twelve: mcarsecond,
+    thirteen: mcarfirst,
+    numberOfImages1: 3,
   },
   {
     id: 10,
@@ -607,10 +605,10 @@ export const worksPages = [
     two: dsecond,
     three: dthird,
     numberOfImages: 3,
-    // eleven: mdfirst,
-    // twelve: mdsecond,
-    // thirteen: mdlast,
-    // numberOfImages1: 3,
+    eleven: mdfirst,
+    twelve: mdsecond,
+    thirteen: mdlast,
+    numberOfImages1: 3,
   },
   {
     id: 11,
@@ -630,11 +628,11 @@ export const worksPages = [
     two: cuesecond,
     three: cuethird,
     numberOfImages: 3,
-    // eleven: mcfirst,
-    // twelve: mcsecond,
-    // thirteen: mcthree,
-    // fourteen: mclast,
-    // numberOfImages1: 4,
+    eleven: mclast,
+    twelve: mcthree,
+    thirteen: mcsecond,
+    fourteen: mcfirst,
+    numberOfImages1: 4,
   },
 
   {
@@ -652,11 +650,11 @@ export const worksPages = [
     category: "Digital Design",
     logo: peexo,
     // numberOfImages: 0,
-    // eleven: mpfirst,
-    // twelve: mpsecond,
-    // thirteen: mpthird,
-    // fourteen: mplast,
-    // numberOfImages1: 4,
+    eleven: mpfirst,
+    twelve: mpsecond,
+    thirteen: mpthird,
+    fourteen: mplast,
+    numberOfImages1: 4,
   },
   {
     id: 13,
@@ -673,11 +671,11 @@ export const worksPages = [
     category: "Social Media Ad",
     logo: enstorelogo,
     // numberOfImages: 0,
-    // eleven: mifirst,
-    // twelve: misecond,
-    // thirteen: mithree,
-    // fourteen: milast,
-    // numberOfImages1: 4,
+    eleven: mifirst,
+    twelve: misecond,
+    thirteen: mithree,
+    fourteen: milast,
+    numberOfImages1: 4,
   },
   {
     id: 14,
@@ -697,11 +695,11 @@ export const worksPages = [
     two: bellasecond,
     // // three: bellathird,
     numberOfImages: 2,
-    // eleven: mbfirst,
-    // twelve: mbsecond,
-    // thirteen: mbthird,
-    // fourteen: mblast,
-    // numberOfImages1: 4,
+    eleven: mblast,
+    twelve: mbthird,
+    thirteen: mbsecond,
+    fourteen: mbfirst,
+    numberOfImages1: 4,
   },
 ];
 

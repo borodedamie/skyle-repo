@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
       <Nav />
       {showOnWorksScreen ? (
         <svg
-        className="absolute flex self-stretch w-[40rem]  md:w-[100vw] top-0 right-[34%] md:right-0 pb-[1rem] md:pb-[10rem] pl-[0] md:pl-[30rem]"
+        className="absolute flex self-stretch w-[40rem]  md:w-[100vw] top-0 right-0 pb-[1rem] md:pb-[10rem] pl-[0] md:pl-[30rem]"
         width="1658.13px"
         height="807px"
         viewBox="0 0 1658.13px 807px"
@@ -158,7 +158,7 @@ const Layout = ({ children }) => {
       </svg>
       ) : (
         <svg
-          className="absolute flex self-stretch w-[40rem]  md:w-[100vw] top-0 right-[10%] md:right-0 pb-[1rem] md:pb-[10rem] pl-[0] md:pl-[30rem]"
+          className="absolute flex self-stretch w-[40rem]  md:w-[100vw] top-0 right-0 pb-[1rem] md:pb-[10rem] pl-[0] md:pl-[30rem]"
           width="1658.13px"
           height="807px"
           viewBox="0 0 1658.13px 807px"
