@@ -9,7 +9,7 @@ const Carousel = () => {
   useEffect(() => {
     new Glide(".glide", {
       type: "carousel",
-      perView: 4,
+      perView: 5,
       breakpoints: {
         420: {
           perView: 1.5,
@@ -21,10 +21,10 @@ const Carousel = () => {
           perView: 4,
         },
         1280: {
-          perView: 4,
+          perView: 5,
         },
       },
-      gap: 1,
+      gap: 0,
       autoplay: 3000,
     }).mount();
   }, []);
@@ -33,13 +33,13 @@ const Carousel = () => {
     <div>
       <div className="glide" style={{ backgroundColor: "#0C0C0C" }}>
         <div className="glide__track" data-glide-el="track">
-          <div className="glide__slides h-[410px] md:h-[498px]  ">
+          <div className="glide__slides h-[410px] md:h-[498px]">
             {carousel.map((carouself, index) => {
               return (
                 <div key={index} className="glide__slide ">
                   <div className="flex items-center justify-center">
                     <img
-                      // className="h-fit"
+                      className="px-0 mx-0"
                       src={carouself.carousel1}
                       alt={`Slide ${index + 1}`}
                     />
