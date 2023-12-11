@@ -7,12 +7,12 @@ import "../css/glide.theme.css";
 
 const Carousel = () => {
   useEffect(() => {
-    new Glide(".glide", {
+    new Glide(".frontpage-ads", {
       type: "carousel",
-      perView: 5,
+      perView: 4,
       breakpoints: {
         420: {
-          perView: 1.5,
+          perView: 1,
         },
         768: {
           perView: 2.5,
@@ -24,30 +24,25 @@ const Carousel = () => {
           perView: 5,
         },
       },
-      gap: 0,
+      gap: 50,
       autoplay: 3000,
     }).mount();
   }, []);
 
   return (
-    <div>
-      <div className="glide" style={{ backgroundColor: "#0C0C0C" }}>
-        <div className="glide__track" data-glide-el="track">
-          <div className="glide__slides h-[410px] md:h-[498px]">
-            {carousel.map((carouself, index) => {
-              return (
-                <div key={index} className="glide__slide ">
-                  <div className="flex items-center justify-center">
-                    <img
-                      className="px-0 mx-0"
-                      src={carouself.carousel1}
-                      alt={`Slide ${index + 1}`}
-                    />
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+    <div className="frontpage-ads" style={{ backgroundColor: "#0C0C0C" }}>
+      <div className="glide__track" data-glide-el="track">
+        <div className="glide__slides">
+          {carousel.map((item, index) => (
+            <div key={index} className="glide__slide">
+              <img
+                className="px-0 mx-0"
+                src={item.carousel1}
+                alt={`Slide ${index + 1}`}
+                style={{ height: '500px', objectFit: 'cover' }}
+              />
+            </div>
+          ))}
         </div>
       </div>
     </div>
@@ -55,4 +50,3 @@ const Carousel = () => {
 };
 
 export default Carousel;
-

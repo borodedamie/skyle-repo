@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { svgCodes } from "../assets/utils/data";
 import Button from "./Button";
 import More from "./More";
@@ -8,15 +8,30 @@ import linebottom2 from "../assets/linebottom2.svg";
 
 import { NavLink } from "react-router-dom";
 import { Link, Route } from "react-router-dom";
+import Phone from "./Phone";
 
 const Workimages = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
     <div className=" bg-[#0C0C0C] pb-[0rem] md:pb-[10rem] px-[20px] md:px-[80px] relative ">
       <img
         className="hidden md:flex absolute w-[100vw] bottom-[40rem] md:bottom-[35rem] right-0 z-[1]"
         src={linebottom}
       />
-       <img
+      <img
         className="flex md:hidden absolute max-h-full w-[100vw] self-stretch bottom-[3rem] left-0 z-[1]"
         src={linebottom2}
       />
@@ -43,7 +58,7 @@ const Workimages = () => {
             return (
               <Link key={p} to={`/works/${svgCode.pathname}`}>
                 <img
-                  
+
                   className="md:h-fit md:w-[80rem] cursor-pointer"
                   src={svgCode.designs}
                 />
@@ -51,15 +66,15 @@ const Workimages = () => {
             );
           })}
         </div>
-       
+
       </div>
       <NavLink to="/portfolio">
-          <div className="flex mb-[5rem] relative z-[10] md:hidden mx-auto justify-center items-center">
-            <Button title="view more works" />
-          </div>
-        </NavLink>
+        <div className="flex mb-[5rem] relative z-[10] md:hidden mx-auto justify-center items-center">
+          <Button title="view more works" />
+        </div>
+      </NavLink>
       <More />
-      <Brands />
+      {isMobile ? <Phone /> : <Brands />}
     </div>
   );
 };

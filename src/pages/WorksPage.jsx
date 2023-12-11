@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { worksPages } from "../assets/utils/data";
 import "../App.css";
+
 const WorksPage = () => {
   const { pathname } = useParams();
   const work = worksPages.find((work) => work.pathname === pathname);
@@ -23,7 +24,6 @@ const WorksPage = () => {
     work?.tentwo,
     work?.tenthree,
     work?.tenfour,
-
   ];
 
   const images1 = [
