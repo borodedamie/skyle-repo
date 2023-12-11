@@ -23,9 +23,8 @@ const More = () => {
   const screenWidth = useScreenWidth();
 
   return (
-    <div className="bg-[#0C0C0C]  px-[5px] md:px-0 lg:px-[80px]  relative">
-      <div className="border-[0.5px] z-[10] relative h-fit pt-[4rem] px-0 md:px-[5px] lg:px-0 md:pt-[2rem] lg:pt-0 md:h-[420px]  flex flex-col items-center justify-center bg-transparent mx-auto  text-[white] border-[white] bg-none rounded-[41px] ">
-        <p className="text-[#FFFFFF] text-center text-[30px] md:text-[40px] px-[2rem] md:px-[1rem] lg:px-0 leading-[31.8px] md:leading-[42.4px] font-[700] font-AtypDisplay">
+    <div className="bg-[#0C0C0C] border-[0.5px] z-[10] md:h-[420px] flex flex-col items-center justify-center bg-transparent mx-auto  text-[white] border-[white] bg-none rounded-[41px]  relative">
+        <p className="text-[#FFFFFF] text-center text-[30px] pt-[2rem] md:text-[40px] px-[2rem] md:px-[1rem] lg:px-0 leading-[31.8px] md:leading-[42.4px] font-[700] font-AtypDisplay">
           Apps, Websites, Logos & More.
         </p>
 
@@ -58,7 +57,6 @@ const More = () => {
           </div>
         )}
       </div>
-    </div>
   );
 };
 

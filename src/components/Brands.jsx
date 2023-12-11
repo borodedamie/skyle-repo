@@ -8,7 +8,7 @@ const Brands = () => {
       <h2 className="text-[20px] md:text-[40px] text-center relative z-[10] font-AtypDisplay capitalize font-[500] leading-[41.8px] text-[white]">
         Brands that love what we do
       </h2>
-      <div className="grid grid-cols-4 place-items-center mx-auto justify-center w-[100%] gap-x-[10rem] gap-y-[3rem]">
+     {} <div className="grid grid-cols-4 place-items-center mx-auto justify-center w-[100%] gap-x-[10rem] gap-y-[3rem]">
         {brands.map((brands1, b) => {
           return (
             <img
