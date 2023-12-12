@@ -15,7 +15,7 @@ import jem from "../assets/jem.svg";
 import rj from "../assets/rj.svg";
 import perception from "../assets/perception.svg";
 import daron from "../assets/daron.svg";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Phone = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,6 +24,7 @@ const Phone = () => {
     new Glide(".brands", {
       type: "carousel",
       perView: 1,
+      clones: false,
     }).mount();
   }, []);
 
@@ -83,7 +84,7 @@ const Phone = () => {
           className={`glide__arrow glide__arrow--left ${
             currentIndex === 0 ? "hidden" : "flex"
           }`}
-          onClick={handlePrevClick}
+          onClick={currentIndex === 0 ? null : handlePrevClick}
         >
           {currentIndex > 0 && (
             <svg
@@ -103,7 +104,7 @@ const Phone = () => {
 
         <button
           data-glide-dir=">"
-          onClick={handleNextClick}
+          onClick={currentIndex === 3 ? null : handleNextClick}
           className={`glide__arrow glide__arrow--right ${
             currentIndex === 3 ? "hidden" : "flex"
           }`}
