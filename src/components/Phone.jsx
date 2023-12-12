@@ -20,21 +20,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 const Phone = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // useEffect(() => {
-  //   new Glide(".brands", {
-  //     type: "carousel",
-  //     perView: 1,
-  //   }).mount();
-  //   go(`=${currentIndex}`);
-  // }, [currentIndex]);
-
   useEffect(() => {
     const glide = new Glide(".brands", {
       type: "carousel",
       perView: 1,
     });
+
     glide.mount();
-    glide.go(`=${currentIndex}`);
   }, [currentIndex]);
 
   const handlePrevClick = () => {
@@ -88,14 +80,14 @@ const Phone = () => {
       </div>
 
       <div data-glide-el="controls" className="glide__arrow">
-        {currentIndex > 0 && (
-          <button
-            data-glide-dir="<"
-            className={`glide__arrow glide__arrow--left ${
-              currentIndex === 0 ? "hidden" : "flex"
-            }`}
-            onClick={handlePrevClick}
-          >
+        <button
+          data-glide-dir="<"
+          className={`glide__arrow glide__arrow--left ${
+            currentIndex === 0 ? "hidden" : "flex"
+          }`}
+          onClick={handlePrevClick}
+        >
+          {currentIndex > 0 && (
             <svg
               width="9"
               height="16"
@@ -108,8 +100,9 @@ const Phone = () => {
                 fill="white"
               />
             </svg>
-          </button>
-        )}
+          )}
+        </button>
+
         <button
           data-glide-dir=">"
           onClick={handleNextClick}
