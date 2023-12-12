@@ -15,19 +15,17 @@ import jem from "../assets/jem.svg";
 import rj from "../assets/rj.svg";
 import perception from "../assets/perception.svg";
 import daron from "../assets/daron.svg";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 
 const Phone = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    const glide = new Glide(".brands", {
+    new Glide(".brands", {
       type: "carousel",
       perView: 1,
-    });
-
-    glide.mount();
-  }, [currentIndex]);
+    }).mount();
+  }, []);
 
   const handlePrevClick = () => {
     setCurrentIndex((prevIndex) => Math.max(0, prevIndex - 1));
@@ -46,7 +44,7 @@ const Phone = () => {
 
       <div className="glide__track" data-glide-el="track">
         <div className="glide__slides mb-0">
-          <div className="glide__slide relative grid overflow-x-hidden">
+          <div className="glide__slide relative">
             <div className="flex left-0 flex-col items-center justify-center">
               <img className="py-[1rem]" src={vision} />
               <img className="py-[1rem]" src={perception} />
