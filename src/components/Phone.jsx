@@ -20,25 +20,28 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 const Phone = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  // useEffect(() => {
+  //   new Glide(".brands", {
+  //     type: "carousel",
+  //     perView: 1,
+  //   }).mount();
+  //   go(`=${currentIndex}`);
+  // }, [currentIndex]);
+
   useEffect(() => {
     new Glide(".brands", {
       type: "carousel",
       perView: 1,
     }).mount();
   }, []);
-
+  
   const handlePrevClick = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
-    }
+    setCurrentIndex((prevIndex) => Math.max(0, prevIndex - 1));
   };
 
   const handleNextClick = () => {
     const totalItems = 4;
-
-    if (currentIndex < totalItems - 1) {
-      setCurrentIndex(currentIndex + 1);
-    }
+    setCurrentIndex((prevIndex) => Math.min(totalItems - 1, prevIndex + 1));
   };
 
   return (
@@ -86,8 +89,8 @@ const Phone = () => {
         {currentIndex > 0 && (
           <button
             data-glide-dir="<"
-            className="glide__arrow glide__arrow--left"
-            onClick={handlePrevClick}
+            className={`glide__arrow glide__arrow--left ${currentIndex === 0 ? 'hidden' : 'flex'}`}
+                        onClick={handlePrevClick}
           >
             <svg
               width="9"
@@ -104,9 +107,9 @@ const Phone = () => {
           </button>
         )}
         <button
-          className="glide__arrow glide__arrow--right "
           data-glide-dir=">"
           onClick={handleNextClick}
+          className={`glide__arrow glide__arrow--right ${currentIndex === 3 ? 'hidden' : 'flex'}`}
         >
           {currentIndex < 3 && (
             <svg
