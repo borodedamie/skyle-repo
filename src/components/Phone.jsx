@@ -30,23 +30,16 @@ const Phone = () => {
   const handlePrevClick = () => {
     if (currentIndex > 0) {
       setCurrentIndex(currentIndex - 1);
-      console.log("Previous Clicked. New Index:", currentIndex - 1);
-    } else {
-      console.log("Already at the first item. Cannot go back.");
     }
   };
-  
+
   const handleNextClick = () => {
     const totalItems = 4;
-  
+
     if (currentIndex < totalItems - 1) {
       setCurrentIndex(currentIndex + 1);
-      console.log("Next Clicked. New Index:", currentIndex + 1);
-    } else {
-      console.log("Already at the last item. Cannot go forward.");
     }
   };
-  
 
   return (
     <div className="brands">
