@@ -29,12 +29,14 @@ const Phone = () => {
   // }, [currentIndex]);
 
   useEffect(() => {
-    new Glide(".brands", {
+    const glide = new Glide(".brands", {
       type: "carousel",
       perView: 1,
-    }).mount();
-  }, []);
-  
+    });
+    glide.mount();
+    glide.go(`=${currentIndex}`);
+  }, [currentIndex]);
+
   const handlePrevClick = () => {
     setCurrentIndex((prevIndex) => Math.max(0, prevIndex - 1));
   };
@@ -89,8 +91,10 @@ const Phone = () => {
         {currentIndex > 0 && (
           <button
             data-glide-dir="<"
-            className={`glide__arrow glide__arrow--left ${currentIndex === 0 ? 'hidden' : 'flex'}`}
-                        onClick={handlePrevClick}
+            className={`glide__arrow glide__arrow--left ${
+              currentIndex === 0 ? "hidden" : "flex"
+            }`}
+            onClick={handlePrevClick}
           >
             <svg
               width="9"
@@ -109,7 +113,9 @@ const Phone = () => {
         <button
           data-glide-dir=">"
           onClick={handleNextClick}
-          className={`glide__arrow glide__arrow--right ${currentIndex === 3 ? 'hidden' : 'flex'}`}
+          className={`glide__arrow glide__arrow--right ${
+            currentIndex === 3 ? "hidden" : "flex"
+          }`}
         >
           {currentIndex < 3 && (
             <svg
