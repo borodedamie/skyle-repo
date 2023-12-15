@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   const location = useLocation();
   const showOnWorksScreen = location.pathname.startsWith("/portfolio");
 
-  const showOnThisScreen = location.pathname.startsWith("/works/");
+  // const showOnThisScreen = location.pathname.startsWith("/works/");
   return (
     <div className="bg-[#0C0C0C]  relative">
       <Nav />
@@ -303,7 +303,7 @@ const Layout = ({ children }) => {
       )}
 
       <main>{children}</main>
-      {showOnThisScreen ? <Contacthero2 /> : <ContactHero />}
+      {/* {showOnThisScreen ? <Contacthero2 /> : <ContactHero />} */}
 
       <Footer />
     </div>

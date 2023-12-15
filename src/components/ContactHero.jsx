@@ -1,6 +1,8 @@
 import React from "react";
 import tmlogo from "../assets/tmlogo.svg";
 import Button from "./Button";
+import { NavLink } from "react-router-dom";
+
 const ContactHero = () => {
   return (
     <div className="bg-[#1A1919] h-fit py-[4rem] md:py-0 md:h-[558px] px-[3.5rem] md:px-0  items-center justify-center text-center flex flex-col gap-[2rem]">
@@ -26,11 +28,12 @@ const ContactHero = () => {
           fill="white"
         />
       </svg>
-
       <h2 className="text-[24px] md:text-[40px] font-[700] text-[white] leading-[28.33px] md:leading-[47.21px] font-AtypDisplay w-fit md:w-[687px]">
         Do you want to start a new project or collaborate with us ?
       </h2>
-      <Button title="Contact us" />
+      <NavLink to="/contact">
+        <Button title="Contact us" />
+      </NavLink>{" "}
     </div>
   );
 };

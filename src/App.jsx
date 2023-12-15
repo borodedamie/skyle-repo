@@ -7,6 +7,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import './App.css'
 import Works from "./pages/Works";
 import WorksPage from "./pages/WorksPage";
+import Contact from "./pages/Contact";
 function App() {
   return (
     <main >
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home />} />
              <Route exact path="/portfolio" element={<Works />} />
+             <Route exact path="/contact" element={<Contact />} />
             <Route path="/works/:pathname" element={<WorksPage/>} />
           </Routes>
         </Layout>
