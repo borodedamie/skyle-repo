@@ -13,6 +13,12 @@
   src: url("/fonts/Atyp/Atyp/AtypText-Bold.ttf") format("truetype");
 }
 
+
+@font-face {
+  font-family: "Grifter";
+  src: url("./assets/fonts/grifterbold.otf") format("otf");
+}
+
 @font-face {
   font-family: "Helvetica";
   src: url("/fonts/Helvetica/Helvetica-Bold.ttf") format("truetype");

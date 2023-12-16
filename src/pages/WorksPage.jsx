@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { worksPages } from "../assets/utils/data";
 import "../App.css";
+import Contacthero2 from "../components/Contacthero2";
 
 const WorksPage = () => {
   const { pathname } = useParams();
@@ -146,6 +147,7 @@ const WorksPage = () => {
       ) : (
         <p className="text-[white]">Item not found</p>
       )}
+      <Contacthero2/>
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -15,12 +16,16 @@ const Header = () => {
 
         
         <div className="flex w-[100%] md:w-fit flex-row gap-3 md:gap-5 mt-[2rem] md:mt-0 z-10 ">
-        <button className="border-2 order-first md:order-last  font-[Inter] text-[white] w-[11rem] border-[white] bg-none hover:text-[black]  hover:bg-[white] rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px]">
+       <NavLink to="/contact">
+       <button className="border-2 order-first md:order-last  font-[Inter] text-[white] w-[11rem] border-[white] bg-none hover:text-[black]  hover:bg-[white] rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px]">
             See plans
           </button>
+        </NavLink> 
+        <NavLink to="/contact">
           <button className="border-2 font-[Inter] text-[black]  w-[11rem] hover:text-[white]  hover:bg-transparent border-[white] bg-[white] rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px]">
             Start a project
           </button>
+          </NavLink>
         </div>
       </div>
     </div>

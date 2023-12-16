@@ -1,16 +1,10 @@
 .glide__arrow {
   position: absolute;
   display: block;
-  top: 50%;
   z-index: 2;
   color: white;
   text-transform: uppercase;
-  padding: 9px 12px;
-  background-color: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  border-radius: 4px;
-  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.1);
-  text-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+ bottom: 5rem;
   opacity: 1;
   cursor: pointer;
   transition: opacity 150ms ease, border 300ms ease-in-out;
@@ -24,30 +18,14 @@
   border-color: white;
 }
 .glide__arrow--left {
-  height: 5rem;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  width: 5rem;
-  padding-right: 20px;
-  padding-left: 20px;
-  position: absolute;
-  margin-right: 4rem;
+  height: 1rem;
+  width: 3rem;
   left: 0;
-  top: 5rem;
 }
 .glide__arrow--right {
-  height: 5rem;
-  align-items: center;
-  position: absolute;
-  top: 5rem;
-  justify-content: center;
-  border-radius: 50%;
-  margin-left: 4rem;
-
-  width: 5rem;
-  right: 0;
-  padding-right: 20px;
+  height: 1rem;
+  margin-left: 20rem;
+  width: 3rem;
   padding-left: 20px;
 }
 
@@ -102,6 +80,3 @@
   cursor: -moz-grabbing;
   cursor: -webkit-grabbing;
 }
-
-
-
