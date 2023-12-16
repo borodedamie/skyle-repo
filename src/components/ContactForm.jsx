@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import dropdown from "../assets/dropdown.svg";
+import PaymentDetails from "./PaymentDetails";
 const ContactForm = () => {
     const [selectedOption, setSelectedOption] = useState("Slack");
     const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -47,12 +48,13 @@ const ContactForm = () => {
         console.log("Preferred Communication:", selectedOption);
       };
   return (
-    <div className="flex flex-col mx-0 md:mx-auto justify-center relative z-[10] items-center my-[7rem]">
+    <div>
+    <div className=" px-[20px] md:px-[80px]  flex flex-col mx-0 md:mx-auto justify-center relative z-[10] items-center my-[7rem]">
       <form onSubmit={handleSubmit}>
         <div className="flex flex-col md:flex-row gap-[1rem]">
           <div className="flex flex-col">
             <label
-              className="font-Inter mb-[1rem] text-[#FFFFFF] font-400 text-[14px] leading-[16.94px]"
+              className="font-Inter mb-[1rem] text-[#FFFFFF] font-[400] text-[14px] leading-[16.94px]"
               htmlFor="name"
             >
               First name*
@@ -62,12 +64,12 @@ const ContactForm = () => {
               name="firstName"
               value={formData.firstName}
                 onChange={handleInputChange}
-              className="w-[80vw] md:w-[414px] text-[white]  pl-[20px] focus:outline-none bg-transparent border border-white h-[60px]"
+              className="w-[80vw] md:w-[350px] xl:w-[414px] text-[white]  pl-[20px] focus:outline-none bg-transparent border border-white h-[60px]"
             />
           </div>
           <div className="flex flex-col">
             <label
-              className="font-Inter mb-[1rem] text-[#FFFFFF] font-400 text-[14px] leading-[16.94px]"
+              className="font-Inter mb-[1rem] text-[#FFFFFF] font-[400] text-[14px] leading-[16.94px]"
               htmlFor="name"
             >
               Last name*
@@ -77,14 +79,14 @@ const ContactForm = () => {
               name="lastName"
               value={formData.lastName}
               onChange={handleInputChange}
-              className="w-[80vw] md:w-[414px]  pl-[20px] text-[white]  focus:outline-none bg-transparent border border-white h-[60px]"
+              className="w-[80vw] md:w-[350px] xl:w-[414px] pl-[20px] text-[white]  focus:outline-none bg-transparent border border-white h-[60px]"
             />
           </div>
         </div>
         <div className="flex flex-col md:flex-row  gap-[1rem]">
           <div className="flex flex-col">
             <label
-              className="font-Inter mt-[2rem] mb-[1rem] text-[#FFFFFF] font-400 text-[14px] leading-[16.94px]"
+              className="font-Inter mt-[2rem] mb-[1rem] text-[#FFFFFF] font-[400] text-[14px] leading-[16.94px]"
               htmlFor="email"
             >
               Email*
@@ -94,12 +96,12 @@ const ContactForm = () => {
               type="email"
               value={formData.email}
               onChange={handleInputChange}
-              className="w-[80vw] md:w-[414px]  pl-[20px] focus:outline-none text-[white]  bg-transparent border border-white h-[60px]"
+              className="w-[80vw] md:w-[350px] xl:w-[414px] pl-[20px] focus:outline-none text-[white]  bg-transparent border border-white h-[60px]"
             />
           </div>
           <div className="flex flex-col">
             <label
-              className="font-Inter   mt-[2rem] mb-[1rem] text-[#FFFFFF] font-400 text-[14px]  leading-[16.94px]"
+              className="font-Inter   mt-[2rem] mb-[1rem] text-[#FFFFFF] font-[400] text-[14px]  leading-[16.94px]"
               htmlFor="number"
             >
               Phone no:*
@@ -109,26 +111,26 @@ const ContactForm = () => {
               name="phone"
               value={formData.phone}
               onChange={handleInputChange}
-              className="w-[80vw] md:w-[414px]   pl-[20px] focus:outline-none bg-transparent border border-white text-[white] h-[60px]"
+              className="w-[80vw] md:w-[350px] xl:w-[414px] pl-[20px] focus:outline-none bg-transparent border border-white text-[white] h-[60px]"
             />
           </div>
         </div>
         <div className="flex flex-col md:flex-row  gap-[1rem]">
           <div className="flex flex-col">
             <label
-              className="font-Inter  mt-[2rem] mb-[1rem] text-[#FFFFFF] font-400 text-[14px] leading-[16.94px]"
+              className="font-Inter  mt-[2rem] mb-[1rem] text-[#FFFFFF] font-[400] text-[14px] leading-[16.94px]"
               htmlFor="name"
             >
               Type of project*
             </label>
-            <div className="w-[80vw] md:w-[414px] items-center justify-between flex flex-row relative bg-transparent pl-[20px] text-[white] border font-400 text-[14px] leading-[16.94px]  border-white h-[60px]">
+            <div className="w-[80vw] md:w-[350px] xl:w-[414px] items-center justify-between flex flex-row relative bg-transparent pl-[20px] text-[white] border font-400 text-[14px] leading-[16.94px]  border-white h-[60px]">
               <div onClick={handleDropdown1}>
                 <p>{selectedOption1}</p>
                 <img className="absolute right-4 bottom-5" src={dropdown} />
               </div>
 
               {isDropdownOpen1 && (
-                <div className="absolute top-full left-0  w-[80vw] md:w-[414px] bg-white border text-[black] border-gray-500">
+                <div className="absolute top-full overflow-y-auto left-0  w-[80vw] md:w-[350px] xl:w-[414px] bg-white border text-[black] border-gray-500 h-[200px]">
                   <p className="hover:bg-[#ECECEC] flex flex-row justify-between items-center w-full px-[1rem] py-[15px] h-[51px] font-400 font-Inter text-[14px] leading-[16.94px]" onClick={() => handleDropdownOptionClick1("Logo Designs")}>
                   Logo Designs <span>$100</span>
                   </p>
@@ -191,14 +193,14 @@ const ContactForm = () => {
             >
               Preferred chat/project mode of communication*
             </label>
-            <div className="w-[80vw] md:w-[414px] items-center justify-between flex flex-row relative bg-transparent pl-[20px] text-[white] border font-400 text-[14px] leading-[16.94px]  border-white h-[60px]">
+            <div className="w-[80vw] md:w-[350px] xl:w-[414px] items-center justify-between flex flex-row relative bg-transparent pl-[20px] text-[white] border font-400 text-[14px] leading-[16.94px]  border-white h-[60px]">
               <div onClick={handleDropdown}>
                 <p>{selectedOption}</p>
                 <img className="absolute right-4 bottom-5" src={dropdown} />
               </div>
 
               {isDropdownOpen && (
-                <div className="absolute top-full left-0  w-[80vw] md:w-[414px] bg-white border text-[black] border-gray-500">
+                <div className="absolute top-full left-0  w-[80vw] md:w-[350px] xl:w-[414px] bg-white border text-[black] border-gray-500">
                   <p className="hover:bg-[#ECECEC] pl-[1rem] py-[15px] h-[51px] font-400 font-Inter text-[14px] leading-[16.94px]" onClick={() => handleDropdownOptionClick("Slack")}>
                     Slack
                   </p>
@@ -218,6 +220,8 @@ const ContactForm = () => {
           </div>
         </div>
       </form>
+    </div>
+    <PaymentDetails/>
     </div>
   );
 };

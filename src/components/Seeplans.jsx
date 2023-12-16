@@ -6,8 +6,8 @@ import question from "../assets/question.svg";
 import warning from "../assets/warning.svg";
 const Seeplans = () => {
   return (
-    <div>
-      <div className="flex flex-col  h-fit mx-auto mt-[5rem] mb-[5rem] md:mb-[10rem] lg:mt-[10rem] lg:flex-row justify-between gap-[1.5rem] items-center w-[100%] max-w-[100%] lg:max-w-[90vw]">
+    <div className="px-[20px] md:px-[80px] ">
+      <div className="flex flex-col h-fit mx-auto mt-[5rem] mb-[5rem] md:mb-[10rem] lg:mt-[10rem] lg:flex-row justify-between gap-[1.5rem] items-center w-[100%] max-w-[100%] lg:max-w-[90vw]">
         <div className="w-[100%] py-[2rem] px-[20px] lg:px-[2rem] xl:px-[4rem] max-w-[100%] lg:max-w-[30vw] bg-none border border-[#FFFFFF] rounded-[8.21px] h-fit  md:h-[35rem]">
           <div className="flex flex-col ">
             <div className="text-[white]">
@@ -52,7 +52,7 @@ const Seeplans = () => {
             Get Started
           </button>
         </div>
-        <div className="w-[100%] py-[2rem] px-[10px] lg:px-[2rem] xl:lg:px-[4rem] max-w-[100%] lg:max-w-[30vw] bg-none border border-[#FFFFFF] rounded-[8.21px] h-fit md:h-[35rem]">
+        <div className="w-[100%] py-[2rem] px-[20px] lg:px-[2rem] xl:lg:px-[4rem] max-w-[100%] lg:max-w-[30vw] bg-none border border-[#FFFFFF] rounded-[8.21px] h-fit md:h-[35rem]">
           <div className="flex flex-col ">
             <div className="text-[white]">
               <p className="font-Inter font-[700] text-[14.41px] pb-[1rem] leading-[20.35px] uppercase">
@@ -102,7 +102,7 @@ const Seeplans = () => {
             Get Started
           </button>
         </div>{" "}
-        <div className="w-[100%] py-[2rem] px-[10px] lg:px-[2rem] xl:px-[4rem] max-w-[100%] lg:max-w-[30vw] bg-[#FFFFFF] border border-[#FFFFFF] rounded-[8.21px]  h-fit  md:h-[35rem]">
+        <div className="w-[100%] py-[2rem] px-[20px] lg:px-[2rem] xl:px-[4rem] max-w-[100%] lg:max-w-[30vw] bg-[#FFFFFF] border border-[#FFFFFF] rounded-[8.21px]  h-fit  md:h-[35rem]">
           <div className="flex flex-col ">
             <div className="text-[black]">
               <p className="font-Inter font-[700] text-[14.41px] pb-[1rem] leading-[20.35px] uppercase">
