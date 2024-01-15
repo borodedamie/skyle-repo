@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import ContactForm from "./ContactForm";
-import Seeplans from "./Seeplans";
+import ContactForm1 from "./ContactForm1";
+import Seeplans1 from "./Seeplans1";
 const Step = () => {
-  const [activeComponent, setActiveComponent] = useState("contactForm");
+  const [activeComponent, setActiveComponent] = useState("contactForm1");
 
   const handleStartProjectClick = () => {
-    setActiveComponent("contactForm");
+    setActiveComponent("contactForm1");
   };
 
   const handleSeePlansClick = () => {
-    setActiveComponent("seePlans");
+    setActiveComponent("seePlans1");
   };
   return (
     <div>
@@ -21,20 +21,20 @@ const Step = () => {
         <div className="flex w-[100%] md:w-fit flex-row gap-3 md:gap-5 mt-[3rem] justify-center items-center z-10 mx-auto">
           <button
             onClick={handleStartProjectClick}
-            className={`border-2  font-[Inter]  w-[11rem] border-[white] bg-none rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px] ${activeComponent === "contactForm" ? 'bg-[white] text-[black]' : 'bg-transparent text-[white]'}`}
+            className={`border-2  font-[Inter]  w-[11rem] border-[white] bg-none rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px] ${activeComponent === "contactForm1" ? 'bg-[white] text-[black]' : 'bg-transparent text-[white]'}`}
           >
             Start a project
           </button>
           <button
             onClick={handleSeePlansClick}
-            className={`border-2  font-[Inter] w-[11rem] border-[white] bg-none rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px] ${activeComponent === "seePlans" ? 'bg-[white] text-[black]' : 'bg-transparent text-[white]'}`}
+            className={`border-2  font-[Inter] w-[11rem] border-[white] bg-none rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px] ${activeComponent === "seePlans1" ? 'bg-[white] text-[black]' : 'bg-transparent text-[white]'}`}
           >
             See plans
           </button>
         </div>
       </div>
-      {activeComponent === "contactForm" && <ContactForm />}
-      {activeComponent === "seePlans" && <Seeplans />}
+      {activeComponent === "contactForm1" && <ContactForm1 />}
+      {activeComponent === "seePlans1" && <Seeplans1 />}
     </div>
   );
 };

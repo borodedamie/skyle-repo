@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import ContactForm from '../pages/ContactForm';
+import Seeplans from '../pages/Seeplans';
 
 const Header = () => {
+  const [activeComponent, setActiveComponent] = useState(null);
+
+  const handleSeePlansClick = () => {
+    setActiveComponent('seePlans');
+  };
+
+  const handleStartProjectClick = () => {
+    setActiveComponent('contactForm');
+  };
   return (
     <div className="relative px-[20px] md:px-[80px] pb-[4rem] md:pb-[6rem]">
       <h2 className="uppercase relative font-AtypDisplay mt-[6rem] md:mt-[12rem] text-[47px] md:text-[70px] xl:text-[120px] leading-[44.4px] md:leading-[100.2px] xl:leading-[124.2px] font-[700] text-[white]">
@@ -16,16 +27,29 @@ const Header = () => {
 
         
         <div className="flex w-[100%] md:w-fit flex-row gap-3 md:gap-5 mt-[2rem] md:mt-0 z-10 ">
-       <NavLink to="/contact">
-       <button className="border-2 order-first md:order-last  font-[Inter] text-[white] w-[11rem] border-[white] bg-none hover:text-[black]  hover:bg-[white] rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px]">
-            See plans
-          </button>
-        </NavLink> 
+        <NavLink to="/contact/seeplans">
+        <button
+          onClick={handleSeePlansClick}
+          className={`border-2 order-first md:order-last font-[Inter] text-[white] w-[11rem] border-[white] bg-none hover:text-[black] hover:bg-[white] rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px] ${
+            activeComponent === 'seePlans' ? 'bg-[white] text-[black]' : 'bg-transparent text-[white]'
+          }`}
+        >
+          See plans
+        </button>
+        {activeComponent === "seePlans" && <Seeplans />}
+
+        </NavLink>
         <NavLink to="/contact">
-          <button className="border-2 font-[Inter] text-[black]  w-[11rem] hover:text-[white]  hover:bg-transparent border-[white] bg-[white] rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px]">
-            Start a project
-          </button>
-          </NavLink>
+        <button
+          onClick={handleStartProjectClick}
+          className={`border-2 font-[Inter] text-[black] w-[11rem] hover:text-[white] hover:bg-transparent border-[white] bg-[white] rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px] ${
+            activeComponent === 'contactForm' ? 'bg-[white] text-[black]' : 'bg-transparent text-[white]'
+          }`}
+        >
+          Start a project
+        </button>
+        {activeComponent === "contactForm" && <ContactForm />}
+        </NavLink>
         </div>
       </div>
     </div>

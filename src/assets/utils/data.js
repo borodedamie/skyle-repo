@@ -189,6 +189,14 @@ import sparkle from "../sparkle.webp";
 import loki from "../loki.webp";
 import dentalcare from "../dentalcare.webp";
 import peexoo from '../peexoo.webp' 
+import chiroflag from '../chiroflag.webp'
+import chiroblend from '../chiroblend.webp'
+import longdoctor from '../longdoctor.webp'
+import mione from '../mione.webp'
+import mitwo from '../mitwo.webp'
+import mpone from '../mpone.webp'
+import mptwo from '../mptwo.webp'
+import bellathird from '../bellathird.webp'
 export const svgCodes = [
   {
     designs: butera,
@@ -259,8 +267,8 @@ export const svgCodes = [
     logo: dentalwhite,
     one: bellafirst,
     two: bellasecond,
-    // // three: bellathird,
-    numberOfImages: 2,
+    three: bellathird,
+    numberOfImages: 3,
     eleven: mblast,
     twelve: mbthird,
     thirteen: mbsecond,
@@ -331,17 +339,19 @@ export const worksPages = [
     logo: chirologo,
     date1: "Feb. 2020",
     category: "Branding Design",
-    one: capsule,
-    two: book,
-    three: bag,
-    four: med,
-    five: doctorc,
-    six: laptop,
-    seven: shape,
-    eight: brand,
-    nine: letter,
-    ten: street,
-    numberOfImages: 10,
+    one: chiroblend,
+    two: capsule,
+    three: book,
+    four: bag,
+    five: med,
+    six: doctorc,
+    seven: laptop,
+    eight: shape,
+    nine: brand,
+    ten: letter,
+    tenone: chiroflag,
+    tentwo: street,
+    numberOfImages: 12,
     eleven: mchiro,
     twelve: mcapsule,
     thirteen: menv,
@@ -421,7 +431,7 @@ export const worksPages = [
     one: hfirst,
     two: hsecond,
     three: habout,
-    four: hyour,
+    four: longdoctor,
     five: hlaptop,
     numberOfImages: 5,
     eleven: mhealth,
@@ -653,7 +663,9 @@ export const worksPages = [
     date1: "Aug. 2021",
     category: "Digital Design",
     logo: peexo,
-    // numberOfImages: 0,
+    one: mione,
+    two: mitwo,
+    numberOfImages: 2,
     eleven: mifirst,
     twelve: misecond,
     thirteen: mithree,
@@ -674,8 +686,9 @@ export const worksPages = [
     date1: "Oct. 2022",
     category: "Social Media Ad",
     logo: enstorelogo,
-    // numberOfImages: 0,
-   
+    one: mpone,
+    two: mptwo,
+    numberOfImages: 2,
     eleven: mpfirst,
     twelve: mpsecond,
     thirteen: mpthird,
@@ -698,8 +711,8 @@ export const worksPages = [
     logo: dentalwhite,
     one: bellafirst,
     two: bellasecond,
-    // // three: bellathird,
-    numberOfImages: 2,
+    three: bellathird,
+    numberOfImages: 3,
     eleven: mblast,
     twelve: mbthird,
     thirteen: mbsecond,

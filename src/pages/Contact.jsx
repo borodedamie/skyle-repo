@@ -1,6 +1,6 @@
 import React from "react";
 import Step from "../components/Step";
-import ContactForm from "../components/ContactForm";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (

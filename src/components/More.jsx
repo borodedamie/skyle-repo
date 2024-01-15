@@ -30,7 +30,7 @@ const More = () => {
 
         {screenWidth <= 767 ? (
           <div className="text-left justify-center flex" >
-          <div className="grid grid-cols-2 place-items-start text-left px-[1rem] py-[5rem] gap-x-[4rem] gap-y-10 justify-center leading-[16.96px] font-[400] text-[16px]">
+          <div className="grid grid-cols-2 place-items-start text-left px-[1rem] py-[5rem] gap-x-[3rem] gap-y-10 justify-center leading-[16.96px] font-[400] text-[16px]">
             {moremobile.map((moremobiles, s) => {
               return (
                 <div className='text-left relative z-[10] capitalize' key={s}>
