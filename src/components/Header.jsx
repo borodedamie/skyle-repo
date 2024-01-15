@@ -15,7 +15,7 @@ const Header = () => {
   };
   return (
     <div className="relative px-[20px] md:px-[80px] pb-[4rem] md:pb-[6rem]">
-      <h2 className="uppercase relative font-AtypDisplay mt-[6rem] md:mt-[12rem] text-[47px] md:text-[70px] xl:text-[120px] leading-[44.4px] md:leading-[100.2px] xl:leading-[124.2px] font-[700] text-[white]">
+      <h2 className="uppercase relative font-AtypDisplay mt-[6rem] md:mt-[8rem] text-[47px] md:text-[70px] xl:text-[120px] leading-[44.4px] md:leading-[100.2px] xl:leading-[124.2px] font-[700] text-[white]">
         from a <br /> creative point
       </h2>
       <div className="flex flex-col max-w-[100%] w-[100%] md:flex-row justify-between items-start md:items-center py-[1rem] md:py-[2rem]">

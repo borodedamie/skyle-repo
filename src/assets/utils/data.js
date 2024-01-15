@@ -181,7 +181,7 @@ import mbfirst from '../mbfirst.webp'
 import mbsecond from '../mbsecond.webp'
 import mbthird from '../mbthird.webp'
 import mblast from '../mblast.webp'
-import cue from "../cue.webp";
+import cue from "../cue.png";
 import come from "../come.png";
 import health100 from "../health100.webp";
 import gym from "../gym.webp";
@@ -291,8 +291,8 @@ export const svgCodes = [
     category: "Logo Design",
     logo: majesticfxlogo,
     one: majesticlarge,
-    two: majesticdark,
-    three: majesticzz,
+    two:  majesticzz,
+    three: majesticdark,
     four: mmfx,
     five: triple,
     six: phone,
@@ -383,8 +383,8 @@ export const worksPages = [
     category: "Logo Design",
     logo: majesticfxlogo,
     one: majesticlarge,
-    two: majesticdark,
-    three: majesticzz,
+    two: majesticzz,
+    three: majesticdark,
     four: mmfx,
     five: triple,
     six: phone,
