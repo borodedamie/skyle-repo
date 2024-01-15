@@ -8,6 +8,8 @@ import './App.css'
 import Works from "./pages/Works";
 import WorksPage from "./pages/WorksPage";
 import Contact from "./pages/Contact";
+import Seeplans from "./pages/Seeplans";
+import ContactForm from "./pages/ContactForm";
 function App() {
   return (
     <main >
@@ -19,6 +21,9 @@ function App() {
             <Route exact path="/" element={<Home />} />
              <Route exact path="/portfolio" element={<Works />} />
              <Route exact path="/contact" element={<Contact />} />
+             <Route exact path="/contact/seeplans" element={<Seeplans />} />
+             {/* <Route exact path="/contact/startaproject" element={<ContactForm />} /> */}
+
             <Route path="/works/:pathname" element={<WorksPage/>} />
           </Routes>
         </Layout>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import dropdown from "../assets/dropdown.svg";
-import PaymentDetails from "./PaymentDetails";
-const ContactForm = () => {
+import PaymentDetails from "../components/PaymentDetails";
+const ContactForm1 = () => {
     const [selectedOption, setSelectedOption] = useState("Slack");
     const [isDropdownOpen, setDropdownOpen] = useState(false);
   
@@ -49,6 +49,7 @@ const ContactForm = () => {
       };
   return (
     <div>
+     
     <div className=" px-[20px] md:px-[80px]  flex flex-col mx-0 md:mx-auto justify-center relative z-[10] items-center my-[7rem]">
       <form onSubmit={handleSubmit}>
         <div className="flex flex-col md:flex-row gap-[1rem]">
@@ -226,4 +227,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default ContactForm1;
