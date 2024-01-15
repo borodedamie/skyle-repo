@@ -38,7 +38,7 @@ import cueballlogo from "../cueballlogo.svg";
 import capsule from "../capsule.webp";
 import book from "../book.webp";
 import doctorc from "../doctorc.webp";
-import bag from "../bag.webp";
+import bag from "../bag.png";
 import med from "../med.webp";
 import laptop from "../laptop.webp";
 import shape from "../shape.webp";
@@ -64,12 +64,12 @@ import hsecond from "../hsecond.webp";
 import habout from "../habout.webp";
 import hyour from "../hyour.webp";
 import hlaptop from "../hlaptop.webp";
-import gfirst from "../nfirst.webp";
-import gsecond from "../nsecond.webp";
-import gthird from "../nthird.webp";
-import gfour from "../nfour.webp";
+import gfirst from "../gfirst.webp";
+import gsecond from "../gsecond.webp";
+import gthird from "../gthird.webp";
+import gfour from "../gfour.webp";
 import gyour from "../nyour.webp";
-import glaptop from "../nlaptop.webp";
+import glaptop from "../glaptop.webp";
 import nfirst from "../nfirst.webp";
 import nsecond from "../nsecond.webp";
 import nthird from "../nthird.webp";
@@ -197,6 +197,7 @@ import mitwo from '../mitwo.webp'
 import mpone from '../mpone.webp'
 import mptwo from '../mptwo.webp'
 import bellathird from '../bellathird.webp'
+import bfive from '../bfive.webp'
 export const svgCodes = [
   {
     designs: butera,
@@ -217,8 +218,8 @@ export const svgCodes = [
     two: bsecond,
     three: bthird,
     four: bfour,
-    // five: bfive,
-    numberOfImages: 4,
+    five: bfive,
+    numberOfImages: 5,
     eleven: mbuterafirst,
     twelve: mbbutera,
     thirteen: mbutera1,
@@ -472,7 +473,7 @@ export const worksPages = [
     id: 5,
     pathname: "360gym",
     brand: gym,
-    title: "360gym website Design",
+    title: "360GYM website Design",
     paragraph:
       "The primary goal was to design a digital platform for 360GYM that embodies its commitment to holistic fitness and wellness, positioning the WebApp as the go-to digital fitness hub for users.",
     content1: "Owner",
@@ -569,8 +570,8 @@ export const worksPages = [
     two: bsecond,
     three: bthird,
     four: bfour,
-    // five: bfive,
-    numberOfImages: 4,
+    five: bfive,
+    numberOfImages: 5,
     eleven: mbuterafirst,
     twelve: mbbutera,
     thirteen: mbutera1,
