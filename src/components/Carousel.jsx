@@ -12,7 +12,7 @@ const Carousel = () => {
       perView: 4,
       breakpoints: {
         420: {
-          perView: 1.5,
+          perView: 1.2,
         },
         768: {
           perView: 2,
