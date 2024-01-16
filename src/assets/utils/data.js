@@ -788,15 +788,15 @@ export const carousel = [
   {
     carousel1: moshood,
   },
-  {
-    carousel1: cue,
-  },
+  // {
+  //   carousel1: cue,
+  // },
   {
     carousel1: press,
   },
-  {
-    carousel1: happy,
-  },
+  // {
+  //   carousel1: happy,
+  // },
   {
     carousel1: fimid,
   },
