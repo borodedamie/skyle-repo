@@ -38,7 +38,7 @@ import cueballlogo from "../cueballlogo.svg";
 import capsule from "../capsule.webp";
 import book from "../book.webp";
 import doctorc from "../doctorc.webp";
-import bag from "../bag.png";
+import bag from "../bag.webp";
 import med from "../med.webp";
 import laptop from "../laptop.webp";
 import shape from "../shape.webp";
