@@ -181,7 +181,7 @@ const Seeplans = () => {
                 </p>
               </div>
             </div>
-            <button className="border w-full mt-[5rem] xl:mt-[2rem] 2xl:mt-[1rem] font-Inter font-[400] text-[16px] leading-[19.36px] border-[black] h-[44px] text-[black]  rounded-[6.15px] bg-[white]">
+            <button className="border w-full mt-[5rem] xl:mt-[3rem] 2xl:mt-[1rem] font-Inter font-[400] text-[16px] leading-[19.36px] border-[black] h-[44px] text-[black]  rounded-[6.15px] bg-[white]">
               Get Started
             </button>
           </div>

@@ -22,8 +22,6 @@ function App() {
              <Route exact path="/portfolio" element={<Works />} />
              <Route exact path="/contact" element={<Contact />} />
              <Route exact path="/contact/seeplans" element={<Seeplans />} />
-             {/* <Route exact path="/contact/startaproject" element={<ContactForm />} /> */}
-
             <Route path="/works/:pathname" element={<WorksPage/>} />
           </Routes>
         </Layout>
