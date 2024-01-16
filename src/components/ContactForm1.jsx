@@ -131,7 +131,7 @@ const ContactForm1 = () => {
               </div>
 
               {isDropdownOpen1 && (
-                <div className="absolute top-full overflow-y-auto left-0  w-[80vw] md:w-[350px] xl:w-[414px] bg-white border text-[black] border-gray-500 h-[200px]">
+                <div className="absolute z-[10] top-full overflow-y-auto left-0  w-[80vw] md:w-[350px] xl:w-[414px] bg-white border text-[black] border-gray-500 h-[200px]">
                   <p className="hover:bg-[#ECECEC] flex flex-row justify-between items-center w-full px-[1rem] py-[15px] h-[51px] font-400 font-Inter text-[14px] leading-[16.94px]" onClick={() => handleDropdownOptionClick1("Logo Designs")}>
                   Logo Designs <span>$100</span>
                   </p>

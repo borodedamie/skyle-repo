@@ -2,10 +2,10 @@ import butera from "../butera.webp";
 import chy from "../chy.webp";
 import luxury from "../luxury.webp";
 import majesticfx from "../majesticfx.png";
-import press from "../press.png";
-import happy from "../happy.png";
-import moshood from "../moshood.png";
-import fimid from "../fimid.png";
+import press from "../press.webp";
+import happy from "../happy.webp";
+import moshood from "../moshood.webp";
+import fimid from "../fimid.webp";
 import astravest from "../astravest.svg";
 import ferrahub from "../ferrahub.svg";
 import peexo from "../peexo.svg";
@@ -181,8 +181,8 @@ import mbfirst from '../mbfirst.webp'
 import mbsecond from '../mbsecond.webp'
 import mbthird from '../mbthird.webp'
 import mblast from '../mblast.webp'
-import cue from "../cue.png";
-import come from "../come.png";
+import cue from "../cue.webp";
+import come from "../come.webp";
 import health100 from "../health100.webp";
 import gym from "../gym.webp";
 import sparkle from "../sparkle.webp";
