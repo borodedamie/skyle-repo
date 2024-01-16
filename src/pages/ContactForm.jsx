@@ -50,7 +50,7 @@ const ContactForm = () => {
       };
   return (
     <div>
-      <div className="px-[20px] md:px-[80px] mx-auto relative z-[10] mt-[10rem] md:mt-[15rem]">
+      <div className="px-[20px] md:px-[80px] mx-auto relative z-[10] mt-[10rem]">
         <h2 className="text-[#FFFFFF] uppercase font-Grifter font-[700] text-[30px] md:text-[50px] lg:text-[70px] leading-[32.01px]  md:leading-[62.01px] text-center">
           You are one step to <br />
           your dream designs

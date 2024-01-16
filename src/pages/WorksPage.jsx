@@ -75,7 +75,7 @@ const WorksPage = () => {
             key={work.id}
           >
             <div className="max-w-[100%] w-[100%] lg:max-w-[50%] lg:w-[50%]  pb-[6rem] lg:pb-0">
-              <img className="w-[70%] md:w-[50%]" src={work.logo} />
+              <img className="w-[70%] md:w-[65%]" src={work.logo} />
             </div>
             <div className="max-w-[100%] w-[100%] lg:max-w-[50%] lg:w-[100%] ">
               <div className="flex flex-col text-left pb-[1rem] border-b-[1px] border-[#595959]">
