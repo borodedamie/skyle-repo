@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import ContactForm from "./ContactForm";
 import Seeplans from "./Seeplans";
-const Step = () => {
-  const [activeComponent, setActiveComponent] = useState("contactForm");
+const Steps = () => {
+  const [activeComponent, setActiveComponent] = useState("seePlans");
 
   const handleStartProjectClick = () => {
     setActiveComponent("contactForm");
@@ -34,9 +34,9 @@ const Step = () => {
         </div>
       </div>
       {activeComponent === "contactForm" && <ContactForm />}
-      {activeComponent === "seePlans" && <Seeplans />}
+      {activeComponent === "seePlans" && <Seeplans/>}
     </div>
   );
 };
 
-export default Step;
+export default Steps;

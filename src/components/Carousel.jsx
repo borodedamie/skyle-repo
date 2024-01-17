@@ -39,7 +39,7 @@ const Carousel = () => {
                 className="px-0 mx-0"
                 src={item.carousel1}
                 alt={`Slide ${index + 1}`}
-                style={{ height: '500px', objectFit: 'cover' }}
+                style={{ height: '500px', objectFit: 'cover', width:'fit-content' }}
               />
             </div>
           ))}
