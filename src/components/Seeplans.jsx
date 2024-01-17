@@ -5,25 +5,9 @@ import questionblack from "../assets/questionblack.svg";
 import question from "../assets/question.svg";
 import warning from "../assets/warning.svg";
 const Seeplans = () => {
-  
   return (
     <div>
-      <div className="px-[20px] md:px-[80px] mx-auto mt-[10rem]">
-        <h2 className="text-[#FFFFFF] uppercase font-Grifter font-[700] text-[30px] md:text-[50px] lg:text-[70px] leading-[32.01px]  md:leading-[62.01px] text-center">
-          You are one step to <br />
-          your dream designs
-        </h2>
-        <div className="flex w-[100%] md:w-fit relative flex-row gap-3 md:gap-5 mt-[3rem] justify-center items-center z-10 mx-auto">
-          <button
-            className="border-2  font-[Inter]  w-[11rem] border-[white] bg-none rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px] bg-transparent text-[white]"          >
-            Start a project
-          </button>
-          <button
-            className="border-2  font-[Inter] w-[11rem] border-[white] bg-none rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px] bg-[white] text-[black]">
-            See plans
-          </button>
-        </div>
-      </div>
+      
       <div className="px-[20px] md:px-[80px] ">
         <div className="flex flex-col h-fit mx-auto mt-[5rem] mb-[5rem] md:mb-[10rem] lg:mt-[10rem] lg:flex-row justify-between gap-[1.5rem] items-center w-[100%] max-w-[100%] lg:max-w-[90vw]">
           <div className="w-[100%] py-[2rem] px-[20px] lg:px-[2rem] xl:px-[4rem] max-w-[100%] lg:max-w-[30vw] bg-none border border-[#FFFFFF] rounded-[8.21px] h-fit  md:h-[35rem]">
@@ -181,7 +165,7 @@ const Seeplans = () => {
                 </p>
               </div>
             </div>
-            <button className="border w-full mt-[5rem] xl:mt-[3rem] 2xl:mt-[1rem] font-Inter font-[400] text-[16px] leading-[19.36px] border-[black] h-[44px] text-[black]  rounded-[6.15px] bg-[white]">
+            <button className="border w-full mt-[5rem] xl:mt-[3rem] 2xl:mt-[4.5rem] font-Inter font-[400] text-[16px] leading-[19.36px] border-[black] h-[44px] text-[black]  rounded-[6.15px] bg-[white]">
               Get Started
             </button>
           </div>

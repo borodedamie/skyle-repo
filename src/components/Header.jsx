@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import ContactForm from '../pages/ContactForm';
-import Seeplans from '../pages/Seeplans';
+import ContactForm from './ContactForm';
+import Seeplans from './Seeplans';
 
 const Header = () => {
   const [activeComponent, setActiveComponent] = useState(null);
@@ -27,7 +27,7 @@ const Header = () => {
 
         
         <div className="flex w-[100%] md:w-fit flex-row gap-3 md:gap-5 mt-[2rem] md:mt-0 z-10 ">
-        <NavLink to="/contact/seeplans">
+        <NavLink to="/contacts">
         <button
           onClick={handleSeePlansClick}
           className={`border-2 order-first md:order-last font-[Inter] text-[white] w-[11rem] border-[white] bg-none hover:text-[black] hover:bg-[white] rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px] ${

@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import dropdown from "../assets/dropdown.svg";
-import PaymentDetails from "../components/PaymentDetails";
+import PaymentDetails from "./PaymentDetails";
 const ContactForm = () => {
     const [selectedOption, setSelectedOption] = useState("Slack");
     const [isDropdownOpen, setDropdownOpen] = useState(false);
-
   
     const handleDropdown = () => {
       setDropdownOpen(!isDropdownOpen);
@@ -50,27 +49,7 @@ const ContactForm = () => {
       };
   return (
     <div>
-      <div className="px-[20px] md:px-[80px] mx-auto mt-[10rem]">
-        <h2 className="text-[#FFFFFF] uppercase font-Grifter font-[700] text-[30px] md:text-[50px] lg:text-[70px] leading-[32.01px]  md:leading-[62.01px] text-center">
-          You are one step to <br />
-          your dream designs
-        </h2>
-        <div className="flex w-[100%] relative md:w-fit flex-row gap-3 md:gap-5 mt-[3rem] justify-center items-center z-10 mx-auto">
-        <button
-           
-            className={`border-2  font-[Inter]  w-[11rem] border-[white] bg-none rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px] ${activeComponent === "contactForm1" ? 'bg-[white] text-[black]' : 'bg-transparent text-[white]'}`}
-          >
-            Start a project
-          </button>
-          <button
-           
-            className={`border-2  font-[Inter] w-[11rem] border-[white] bg-none rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px] ${activeComponent === "seePlans1" ? 'bg-[white] text-[black]' : 'bg-transparent text-[white]'}`}
-          >
-            See plans
-          </button>
-         
-        </div>
-      </div>
+     
     <div className=" px-[20px] md:px-[80px]  flex flex-col mx-0 md:mx-auto justify-center relative z-[10] items-center my-[7rem]">
       <form onSubmit={handleSubmit}>
         <div className="flex flex-col md:flex-row gap-[1rem]">
@@ -244,7 +223,6 @@ const ContactForm = () => {
       </form>
     </div>
     <PaymentDetails/>
-    
     </div>
   );
 };

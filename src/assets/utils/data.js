@@ -232,7 +232,7 @@ export const svgCodes = [
     id: 9,
     pathname: "luxury-car-rentals",
     brand: luxury,
-    title: "Car Rental mobile App Design",
+    title: "Car Rental Mobile App Design",
     paragraph:
       "Develop a mobile app that seamlessly marries the allure of luxury vehicles with a user-friendly interface, allowing clients to effortlessly access and rent their preferred luxury cars.",
     content1: "Owner",
@@ -419,7 +419,7 @@ export const worksPages = [
     id: 3,
     pathname: "health100",
     brand: health100,
-    title: "Health 100",
+    title: "HEALTH 100",
     paragraph:
       "The primary goal was to design a website that not only visually resonated with Health100's brand identity but also provided a seamless and intuitive user experience for their vast clientele.",
     content1: "Owner",
@@ -583,7 +583,7 @@ export const worksPages = [
     id: 9,
     pathname: "luxury-car-rentals",
     brand: luxury,
-    title: "Car Rental mobile App Design",
+    title: "Car Rental Mobile App Design",
     paragraph:
       "Develop a mobile app that seamlessly marries the allure of luxury vehicles with a user-friendly interface, allowing clients to effortlessly access and rent their preferred luxury cars.",
     content1: "Owner",
@@ -606,7 +606,7 @@ export const worksPages = [
     id: 10,
     pathname: "dental-direct",
     brand: dentalcare,
-    title: "Dental Direct mobile App Design",
+    title: "Dental Direct Mobile App Design",
     paragraph:
       "Craft a mobile app that serves as a one-stop solution for all dental care needs, blending clinical accuracy with a user-friendly design, ensuring patients have immediate access to dental guidance and services.",
     content1: "Owner",
