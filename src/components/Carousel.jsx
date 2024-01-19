@@ -9,22 +9,22 @@ const Carousel = () => {
   useEffect(() => {
     new Glide(".frontpage-ads", {
       type: "carousel",
-      perView: 4,
+      perView: 2.5,
       breakpoints: {
         420: {
-          perView: 1.2,
+          perView: 1,
         },
         768: {
           perView: 2,
         },
-        1024: {
-          perView: 4,
-        },
-        1280: {
-          perView: 5,
-        },
+        // 1024: {
+        //   perView: 2.5,
+        // },
+        // 1280: {
+        //   perView: 2.5,
+        // },
       },
-      gap: 20,
+      gap: 50,
       autoplay: 3000,
     }).mount();
   }, []);
