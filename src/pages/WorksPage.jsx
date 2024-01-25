@@ -3,6 +3,7 @@ import { NavLink, useParams } from "react-router-dom";
 import { worksPages } from "../assets/utils/data";
 import "../App.css";
 import Contacthero2 from "../components/Contacthero2";
+import individual from '../assets/gif/individualworkpage.gif'
 
 const WorksPage = () => {
   const { pathname } = useParams();
@@ -67,9 +68,12 @@ const WorksPage = () => {
   const screenWidth = useScreenWidth();
 
   return (
+    <div>     
+          <img className="flex self-stretch absolute md:h-[100vh] md:w-[100vw]  -top-8" src={individual}/>
+
     <div className="px-[20px] lg:px-[80px] relative">
       {work ? (
-        <div>
+        <div className="">
           <div
             className="flex flex-col lg:flex-row h-fit py-[6rem] lg:py-0 lg:h-[100vh] text-[#FFFFFF] items-center justify-center px-0 lg:px-[10rem] max-w-[100%] w-[100%]"
             key={work.id}
@@ -149,6 +153,8 @@ const WorksPage = () => {
       )}
       <Contacthero2/>
     </div>
+    </div>
+
   );
 };
 

@@ -11,6 +11,11 @@ export default {
         xl: "1280px",
         "2xl": "1536px",
       },
+      backgroundImage: {
+        'herogif': "url('./src/assets/gif/Landingpage .gif')",
+        'portfolio': "url('./src/assets/gif/page.gif')",
+        'individual': "url('./src/assets/gif/individualworkpage.gif')",
+      }
     },
   },
   plugins: [],
