@@ -6,9 +6,7 @@ const Layout = ({ children }) => {
   return (
     <div className="bg-[#0C0C0C]  relative">
       <Nav />
-
       <main>{children}</main>
-
       <Footer />
     </div>
   );
