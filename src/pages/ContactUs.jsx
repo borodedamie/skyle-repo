@@ -105,8 +105,10 @@ const ContactUs = () => {
                         <textarea id="message" name="_message" defaultValue={""} />
                         <label htmlFor="_message">Message*</label>
                     </div>
-                    <input type="submit" id="submit-button" defaultValue="Submit" />
-                    <a href="#">Back to home</a>
+                    <div className="contact-us-buttons">
+                        <input type="submit" id="submit-button" defaultValue="Submit" />
+                        <a href="#">Back to home</a>
+                    </div>
                 </form>
             </div>
         </div>
