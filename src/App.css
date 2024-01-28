@@ -15,6 +15,10 @@
   text-align: center;
   flex-direction: column;
   margin-top: 5%;
+  background-image: url('./assets/gif/page.gif');
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
 }
 
 .coming-soon h1 {

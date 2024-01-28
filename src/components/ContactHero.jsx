@@ -31,7 +31,7 @@ const ContactHero = () => {
       <h2 className="text-[24px] md:text-[40px] font-[700] text-[white] leading-[28.33px] md:leading-[47.21px] font-AtypDisplay w-fit md:w-[687px]">
         Do you want to start a new project or collaborate with us ?
       </h2>
-      <NavLink to="/contact">
+      <NavLink to="/contact-us">
         <Button title="Contact us" />
       </NavLink>{" "}
     </div>

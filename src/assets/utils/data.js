@@ -198,6 +198,7 @@ import mpone from '../mpone.webp'
 import mptwo from '../mptwo.webp'
 import bellathird from '../bellathird.webp'
 import bfive from '../bfive.webp'
+
 export const svgCodes = [
   {
     designs: butera,
@@ -206,7 +207,7 @@ export const svgCodes = [
     brand: butera,
     title: "BUTERA Website Design",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat sed blandit enim orci diam eu auctor egestas. Facilisis eget egestas amet vitae turpis egestas commodo sed.  Ullamcorper mauris iaculis feugiat sem vel, vitae vitae commodo.”",
+      "The Butera goal was to design a website that not only visually resonated with brand identity but also provided a seamless and intuitive user experience for their vast clientele.",
     content1: "Owner",
     category1: "Category",
     date: "Date",
@@ -558,7 +559,7 @@ export const worksPages = [
     brand: butera,
     title: "BUTERA Website Design",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat sed blandit enim orci diam eu auctor egestas. Facilisis eget egestas amet vitae turpis egestas commodo sed.  Ullamcorper mauris iaculis feugiat sem vel, vitae vitae commodo.”",
+      "The Butera goal was to design a website that not only visually resonated with brand identity but also provided a seamless and intuitive user experience for their vast clientele.",
     content1: "Owner",
     category1: "Category",
     date: "Date",
