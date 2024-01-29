@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 * {
   max-width: calc(100%-17px);
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif !important;
 }
 
 .coming-soon {
@@ -17,18 +17,18 @@
   margin-top: 5%;
   background-image: url('./assets/gif/page.gif');
   background-position: center;
-  background-size: 80%;
+  background-size: 65%;
   background-repeat: no-repeat;
 }
 
 .coming-soon h1 {
   color: white;
   font-size: 10em;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   text-transform: uppercase;
   white-space: nowrap;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .coming-soon button {
@@ -36,9 +36,9 @@
   border: 1px solid white;
   background-color: #0c0c0c;
   border-radius: 15px;
-  padding: 10px 45px;
-  font-family: 'Inter';
-  margin-top: 5%;
+  padding: 15px 50px;
+  font-family: 'Inter', sans-serif;
+  margin-top: 3%;
 }
 
 .coming-soon button:hover {
@@ -60,12 +60,12 @@
 .contact-us h1 {
   color: white;
   text-align: center;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 3.125em;
   text-transform: uppercase;
   margin-top: 2%;
   margin-bottom: 5%;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .boxes {
@@ -82,12 +82,12 @@
 .boxes h6 {
   font-size: 1.875em;
   font-weight: 500;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
 }
 
 .boxes a {
   font-size: 1.125em;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
 }
 
 .box {
@@ -163,7 +163,7 @@
   font-size: 18px; 
   color: white; 
   margin-bottom: 5%;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 200;
 }
 
@@ -177,7 +177,7 @@
 }
 
 .contact-us-buttons input {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   background-color: white;
   color: #0c0c0c;
   padding: 10px 38px;
@@ -192,7 +192,7 @@
 }
 
 .contact-us-buttons a {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   color: white;
   font-weight: 400;
   font-size: 1.125em;
