@@ -32,7 +32,7 @@ const Contacthero2 = () => {
         Do you want to start a new project or collaborate with us ?
       </h2>
       <div className="flex flex-row justify-between items-center gap-[2rem] md:gap-[1rem]">
-        <NavLink to="/contact">
+        <NavLink to="/contact-us">
           <Button title="Contact us" />
         </NavLink>
 

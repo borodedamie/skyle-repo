@@ -85,7 +85,7 @@ const Nav = () => {
       </NavLink>
 
       {showNavbar ? (
-        <div className="flex flex-col bg-[#282828] h-[243px] w-[249px] absolute right-[2rem] top-5 pl-[2rem] pt-[1rem]">
+        <div className="flex flex-col bg-[#282828] h-[243px] w-[249px] absolute right-[2rem] top-0 pl-[2rem] pt-[1rem]">
           <svg
             className="absolute right-5 top-5 cursor-pointer"
             onClick={toggleNavbar}
@@ -118,7 +118,7 @@ const Nav = () => {
           </NavLink>
           <NavLink
             className="text-[white] py-[1rem]  font-[400] text-[18px] leading-[21.78px]"
-            to="/contact"
+            to="/contact-us"
              onClick={toggleNavbar}
           >
             {" "}
