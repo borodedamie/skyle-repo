@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import ContactForm from './ContactForm';
 import Seeplans from './Seeplans';
-import herogif from '../assets/gif/Landingpage .gif'
+import herogif from '../assets/gif/Landingpage .gif';
+
 const Header = () => {
   const [activeComponent, setActiveComponent] = useState(null);
 
@@ -18,7 +19,7 @@ const Header = () => {
     <div className="relative">
       <img className="absolute w-fit md:w-[100vw] flex -top-8" src={herogif} />
       <div className="px-[20px] md:px-[80px] pt-[4rem] pb-[4rem] md:pt-[6rem] md:pb-[8rem]">
-        <h2 className="uppercase relative font-AtypDisplay pt-[6rem] md:pt-[8rem] text-[47px] md:text-[70px] xl:text-[120px] leading-[44.4px] md:leading-[100.2px] xl:leading-[124.2px] font-[700] text-[white]">
+        <h2 className="uppercase relative pt-[6rem] md:pt-[8rem] text-[47px] md:text-[70px] xl:text-[120px] leading-[44.4px] md:leading-[100.2px] xl:leading-[124.2px] font-[800] text-[white]">
           from a <br /> creative point
         </h2>
         <div className="flex relative flex-col max-w-[100%] w-[100%] md:flex-row justify-between items-start md:items-center py-[1rem] md:py-[2rem]">
