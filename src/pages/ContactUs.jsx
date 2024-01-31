@@ -205,7 +205,8 @@ const ContactUs = () => {
           </svg>
           <h6>Call Us</h6>
           <a href="tel:+2348163705876">+234 816 370 5876</a>
-        </div>
+          <a href="tel:+447398847224">+44 739 884 7224</a>
+          </div>
         <div className="box">
           <svg
             width={37}

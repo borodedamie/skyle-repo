@@ -20,10 +20,10 @@ const Footer = () => {
           <img className="pt-[3rem] md:py-[1rem]" src={logo} alt="Skyle-logo" />
         </NavLink>
         <div className="text-[white]">
-          <p className="text-[16px] py-[1rem] md:py-1 font-Helvetica leading-[18.4px] font-[400]">
+          <p className="text-[16px] py-[.5rem] md:py-1 font-Helvetica leading-[18.4px] font-[400]">
             +234 816 370 5876
           </p>
-          <p className="text-[16px] py-[1rem] md:py-1 font-Helvetica leading-[18.4px] font-[400]">
+          <p className="text-[16px] py-[.5rem] md:py-1 font-Helvetica leading-[18.4px] font-[400]">
             +44 739 884 7224
           </p>
           <p className="text-[16px] py-[.3rem] md:py-1 font-Helvetica leading-[18.4px] font-[400]">
