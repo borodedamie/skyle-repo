@@ -263,7 +263,6 @@ const ContactUs = () => {
             <NavLink to="/">
               <p>Back to home</p>
             </NavLink>
-            {/* <a href="#">Back to home</a> */}
           </div>
         </form>
       </div>
