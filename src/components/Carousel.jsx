@@ -8,7 +8,6 @@ import "../css/glide.theme.css";
 const Carousel = () => {
   useEffect(() => {
     new Glide(".frontpage-ads", {
-      type: "carousel",
       perView: 2.5,
       breakpoints: {
         420: {
@@ -17,12 +16,6 @@ const Carousel = () => {
         768: {
           perView: 2,
         },
-        // 1024: {
-        //   perView: 2.5,
-        // },
-        // 1280: {
-        //   perView: 2.5,
-        // },
       },
       gap: 50,
       autoplay: 3000,
@@ -36,7 +29,7 @@ const Carousel = () => {
           {carousel.map((item, index) => (
             <div key={index} className="glide__slide">
               <img
-                className="px-0 mx-0"
+                className=""
                 src={item.carousel1}
                 alt={`Slide ${index + 1}`}
               />
