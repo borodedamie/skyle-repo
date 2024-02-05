@@ -1,8 +1,8 @@
-import { brands2 } from "../assets/utils/data";
+import React, { useEffect, useState } from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Glide from "@glidejs/glide";
 import "../css/glide.core.css";
 import "../css/glide.theme.css";
-import React, { useEffect, useState } from "react";
 import astravest from "../assets/astravest.svg";
 import ferrahub from "../assets/ferrahub.svg";
 import peexo from "../assets/peexo.svg";
@@ -15,14 +15,12 @@ import jem from "../assets/jem.svg";
 import rj from "../assets/rj.svg";
 import perception from "../assets/perception.svg";
 import daron from "../assets/daron.svg";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Phone = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     new Glide(".brands", {
-      type: "carousel",
       perView: 1,
       clones: false,
     }).mount();

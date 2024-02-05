@@ -31,7 +31,7 @@ const Contacthero2 = () => {
       <h2 className="text-[24px] md:text-[40px] font-[700] text-[white] leading-[28.33px] md:leading-[47.21px] font-AtypDisplay w-fit md:w-[687px]">
         Do you want to start a new project or collaborate with us ?
       </h2>
-      <div className="flex flex-row justify-between items-center gap-[2rem] md:gap-[1rem]">
+      <div className="flex flex-row justify-between items-center gap-[1rem] md:gap-[1rem]">
         <NavLink to="/contact-us">
           <Button title="Contact us" />
         </NavLink>
