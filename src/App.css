@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 * {
-  max-width: calc(100%-17px);
+  max-width: calc(100%);
   margin: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif !important;

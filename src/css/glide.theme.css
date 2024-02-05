@@ -4,24 +4,28 @@
   z-index: 2;
   color: white;
   text-transform: uppercase;
- bottom: 5rem;
+  bottom: 5rem;
   opacity: 1;
   cursor: pointer;
   transition: opacity 150ms ease, border 300ms ease-in-out;
   transform: translateY(-50%);
   line-height: 1;
 }
+
 .glide__arrow:focus {
   outline: none;
 }
+
 .glide__arrow:hover {
   border-color: white;
 }
+
 .glide__arrow--left {
   height: 1rem;
   width: 3rem;
   left: 0;
 }
+
 .glide__arrow--right {
   height: 1rem;
   margin-left: 20rem;
@@ -57,14 +61,17 @@
   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.1);
   margin: 0 0.25em;
 }
+
 .glide__bullet:focus {
   outline: none;
 }
+
 .glide__bullet:hover,
 .glide__bullet:focus {
   border: 2px solid white;
   background-color: rgba(255, 255, 255, 0.5);
 }
+
 .glide__bullet--active {
   background-color: white;
 }
