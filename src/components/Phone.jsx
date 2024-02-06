@@ -22,7 +22,6 @@ const Phone = () => {
   useEffect(() => {
     new Glide(".brands", {
       perView: 1,
-      clones: false,
     }).mount();
   }, []);
 

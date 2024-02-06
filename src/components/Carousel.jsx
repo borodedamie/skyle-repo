@@ -8,6 +8,7 @@ import "../css/glide.theme.css";
 const Carousel = () => {
   useEffect(() => {
     new Glide(".frontpage-ads", {
+      type: "carousel",
       perView: 2.5,
       breakpoints: {
         420: {
