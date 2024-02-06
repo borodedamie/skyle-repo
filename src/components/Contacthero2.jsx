@@ -4,7 +4,7 @@ import Button from "./Button";
 import { NavLink } from "react-router-dom";
 const Contacthero2 = () => {
   return (
-    <div className="bg-[#1A1919] h-fit py-[4rem] md:py-0 md:h-[558px] px-[3.5rem] md:px-0  items-center justify-center text-center flex flex-col gap-[2rem]">
+    <div className="bg-[#1A1919] mx-auto px-auto h-fit py-[4rem] md:py-0 md:h-[558px] px-[3.5rem] md:px-0  items-center justify-center text-center flex flex-col gap-[2rem]">
       <svg
         width="102"
         height="75"
