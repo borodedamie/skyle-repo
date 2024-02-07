@@ -1,14 +1,14 @@
 .glide__arrow {
-  position: absolute;
-  display: block;
+  position: relative;
+  display: flex;
   z-index: 2;
   color: white;
   text-transform: uppercase;
+  align-items: center;
  bottom: 5rem;
   opacity: 1;
   cursor: pointer;
   transition: opacity 150ms ease, border 300ms ease-in-out;
-  transform: translateY(-50%);
   line-height: 1;
 }
 .glide__arrow:focus {
@@ -18,15 +18,13 @@
   border-color: white;
 }
 .glide__arrow--left {
-  height: 1rem;
-  width: 3rem;
   left: 0;
+  position: absolute;
+
 }
 .glide__arrow--right {
-  height: 1rem;
-  margin-left: 20rem;
-  width: 3rem;
-  padding-left: 20px;
+  right: 0;
+  position: absolute;
 }
 
 
@@ -37,7 +35,7 @@
 .glide__bullets {
   position: absolute;
   z-index: 2;
-  bottom: 2em;
+  /* bottom: 2em; */
   left: 50%;
   display: inline-flex;
   list-style: none;
