@@ -66,7 +66,7 @@ const Workimages = () => {
         </div>
       </div>
       <NavLink to="/portfolio">
-        <div className="flex mb-[5rem] relative z-[10] md:hidden border-2 font-[Inter] text-[white] hover:text-[black]  hover:bg-[white] border-[white] bg-none rounded-[15px] h-[54px] w-[150px] md:w-[196px] text-center leading-[19.36px] font-[400] text-[16px] mx-auto justify-center items-center">
+        <div className="flex mb-[5rem] relative z-[10] md:hidden border-2 font-[Inter] text-[white] hover:text-[black]  border-[white] bg-none rounded-[15px] hover:bg-[white] h-[54px] w-[150px] md:w-[196px] text-center leading-[19.36px] font-[400] text-[16px] mx-auto justify-center items-center">
           <p>view more works</p>
         </div>
       </NavLink>
