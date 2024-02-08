@@ -25,11 +25,10 @@ const Carousel = () => {
   return (
     <div className="frontpage-ads" style={{ backgroundColor: "#0C0C0C" }}>
       <div className="glide__track" data-glide-el="track">
-        <div className="glide__slides">
+        <div className="glide__slides flex">
           {carousel.map((item, index) => (
             <div key={index} className="glide__slide">
               <img
-                className=""
                 src={item.carousel1}
                 alt={`Slide ${index + 1}`}
               />

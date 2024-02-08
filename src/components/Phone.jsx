@@ -41,7 +41,7 @@ const Phone = () => {
       </h2>
 
       <div className="glide__track" data-glide-el="track">
-        <div className="glide__slides mb-0">
+        <div className="glide__slides mb-0 flex ">
           <div className="glide__slide relative">
             <div className="flex left-0 flex-col items-center justify-center">
               <img className="py-[1rem]" src={vision} />

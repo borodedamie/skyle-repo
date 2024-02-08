@@ -14,12 +14,11 @@
 
 .glide__slides {
   position: relative;
-  width: 100%;
+width: 100%;
   list-style: none;
   backface-visibility: hidden;
-  transform-style: preserve-3d;
+   transform-style: preserve-3d;
   touch-action: pan-Y;
-  overflow: hidden;
   margin: 0;
   padding: 0;
   white-space: nowrap;

@@ -9,7 +9,7 @@ const WorksH = () => {
       <h2 className="flex relative flex-col z-[100] text-center font-AtypDisplay items-center text-[white] text-[30px] md:text-[50px] leading-[33px] md:leading-[60.01px] uppercase font-[700]">
         We've worked with some amazing businesses
       </h2>
-      <h2 className="text-[white] relative z-[100] font-[Inter] font-[400] pt-[1rem] text-[18px] leading-[18.63px]">
+      <h2 className="text-[white] relative text-center z-[100] mx-auto font-[Inter] font-[400] pt-[1rem] text-[18px] leading-[18.63px]">
         Here are a few of our favourites
       </h2>
     </div>
