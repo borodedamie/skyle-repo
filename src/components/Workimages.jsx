@@ -18,11 +18,11 @@ const Workimages = () => {
       setIsMobile(window.innerWidth <= 768);
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     // Clean up the event listener on component unmount
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
   return (
@@ -35,7 +35,6 @@ const Workimages = () => {
         className="flex md:hidden absolute max-h-full w-[100vw] self-stretch bottom-[3rem] left-0 z-[1]"
         src={linebottom2}
       />
-
 
       <div className="flex z-[10]  relative flex-col md:flex-row justify-between items-start md:items-center py-[3rem] md:py-[5rem] ">
         <div>
@@ -58,7 +57,6 @@ const Workimages = () => {
             return (
               <Link key={p} to={`/works/${svgCode.pathname}`}>
                 <img
-
                   className=" md:w-[80rem] cursor-pointer"
                   src={svgCode.designs}
                 />
@@ -66,11 +64,10 @@ const Workimages = () => {
             );
           })}
         </div>
-
       </div>
       <NavLink to="/portfolio">
-        <div className="flex mb-[5rem] relative z-[10] md:hidden mx-auto justify-center items-center">
-          <Button title="view more works" />
+        <div className="flex mb-[5rem] relative z-[10] md:hidden border-2 font-[Inter] text-[white] hover:text-[black]  hover:bg-[white] border-[white] bg-none rounded-[15px] h-[54px] w-[150px] md:w-[196px] text-center leading-[19.36px] font-[400] text-[16px] mx-auto justify-center items-center">
+          <p>view more works</p>
         </div>
       </NavLink>
       <More />
