@@ -34,7 +34,7 @@ const Header = () => {
             <NavLink to="/contact-us">
               <button
                 onClick={handleStartProjectClick}
-                className={`border-2 font-[Inter] text-[black] w-[11rem] hover:text-[black] hover:bg-[white] border-[white] bg-[white] rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px] ${activeComponent === 'contactForm' ? 'bg-[white] text-[black]' : 'bg-transparent text-[white]'
+                className={`border-2 font-[Inter] text-[black] w-[140px] hover:text-[black] hover:bg-[white] border-[white] bg-[white] rounded-[15px] h-[54px]  md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px] ${activeComponent === 'contactForm' ? 'bg-[white] text-[black]' : 'bg-transparent text-[white]'
                   }`}
               >
                 Start a project
@@ -44,7 +44,7 @@ const Header = () => {
             <NavLink to="/coming-soon">
               <button
                 onClick={handleSeePlansClick}
-                className={`border-2 order-first md:order-last font-[Inter] text-[white] w-[11rem] border-[white] bg-none hover:text-[black] hover:bg-[white] rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px] ${activeComponent === 'seePlans' ? 'bg-[white] text-[black]' : 'bg-transparent text-[white]'
+                className={`border-2 order-first md:order-last font-[Inter] text-[white] w-[140px] border-[white] bg-none hover:text-[black] hover:bg-[white] rounded-[15px] h-[54px] md:w-[145px] text-center flex items-center justify-center leading-[19.36px] font-[400] text-[16px] ${activeComponent === 'seePlans' ? 'bg-[white] text-[black]' : 'bg-transparent text-[white]'
                   }`}
               >
                 See plans
