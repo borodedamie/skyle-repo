@@ -9,6 +9,7 @@ const Carousel = () => {
   useEffect(() => {
     new Glide(".frontpage-ads", {
       perView: 2.5,
+      type: 'carousel',
       breakpoints: {
         420: {
           perView: 1,
