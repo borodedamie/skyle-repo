@@ -72,7 +72,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 4em;
+  gap: 2em;
 }
 
 .boxes h6, .boxes a {
@@ -103,15 +103,15 @@
 }
 
 .box:nth-of-type(1) {
-  padding: 105px 140px;
+  width: 400px;
 }
 
 .box:nth-of-type(2) {
-  padding: 105px 135px;
+  width: 400px;
 }
 
 .box:nth-of-type(3) {
-  padding: 100px 110px;
+  width: 400px;
 }
 
 .box svg {
