@@ -11,7 +11,7 @@ import Contact from "./pages/Contact";
 import Contacts from "./pages/Contacts";
 import ComingSoon from "./pages/ComingSoon";
 import ContactUs from "./pages/ContactUs";
-
+import About from "./pages/About";
 function App() {
   return (
     <main>
@@ -26,6 +26,7 @@ function App() {
             <Route exact path="/coming-soon" element={<ComingSoon />} />
             <Route exact path="/contact-us" element={<ContactUs />} />
             <Route exact path="/contacts" element={<Contacts />} />{" "}
+            <Route exact path="/about-us" element={<About />} />
             <Route path="/works/:pathname" element={<WorksPage />} />
           </Routes>
         </Layout>
