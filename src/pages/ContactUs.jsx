@@ -188,7 +188,7 @@ const ContactUs = () => {
           </svg>
           </div>
           <h6>Instagram</h6>
-          <a href="#">skyledesignstudios</a>
+          <a href="https://www.instagram.com/designwithskyle/" target="_blank">designwithskyle</a>
           
         </div>
         <div className="box">
