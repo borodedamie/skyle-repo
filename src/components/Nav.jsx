@@ -118,6 +118,14 @@ const Nav = () => {
           </NavLink>
           <NavLink
             className="text-[white] py-[1rem]  font-[400] text-[18px] leading-[21.78px]"
+            to="/about-us"
+             onClick={toggleNavbar}
+          >
+            {" "}
+            About us
+          </NavLink>
+          <NavLink
+            className="text-[white] py-[1rem]  font-[400] text-[18px] leading-[21.78px]"
             to="/contact-us"
              onClick={toggleNavbar}
           >
