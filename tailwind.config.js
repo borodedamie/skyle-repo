@@ -15,7 +15,7 @@ export default {
         'herogif': "url('./src/assets/gif/Landingpage .gif')",
         'portfolio': "url('./src/assets/gif/page.gif')",
         'individual': "url('./src/assets/gif/individualworkpage.gif')",
-        'track': "url('./src/assets/track.webp')"
+        'track': "url('./src/assets/track.webp')",
       }
     },
   },

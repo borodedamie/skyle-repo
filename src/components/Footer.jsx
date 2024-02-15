@@ -21,11 +21,9 @@ const Footer = () => {
         </NavLink>
         <div className="text-[white]">
           <p className="text-[16px] py-[.5rem] md:py-1 font-Helvetica leading-[18.4px] font-[400]">
-            +234 816 370 5876
+            +234 816 370 5876 <span className="pl-[10px]"> +44 739 884 7224</span>
           </p>
-          <p className="text-[16px] py-[.5rem] md:py-1 font-Helvetica leading-[18.4px] font-[400]">
-            +44 739 884 7224
-          </p>
+         
           <p className="text-[16px] py-[.3rem] md:py-1 font-Helvetica leading-[18.4px] font-[400]">
             info@skyledesignsstudios.com
           </p>
