@@ -1,10 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import creative from '../assets/gif/creative.gif'
 
 const AboutHero = () => {
   return (
     <div className=" h-fit md:h-[30rem] justify-center mx-auto flex flex-col items-center">
-      <h2 className="flex pt-[7rem] md:pt-0 flex-col text-center font-AtypDisplay items-center text-[white] text-[30px] md:text-[80px] leading-[33px] md:leading-[82.8px] uppercase font-[800]">
+            <img className="flex h-[10rem] w-[10rem] mt-[5rem] " src={creative}/>
+
+      <h2 className="flex pt-[4rem] md:pt-[2rem] flex-col text-center font-AtypDisplay items-center text-[white] text-[30px] md:text-[80px] leading-[33px] md:leading-[82.8px] uppercase font-[800]">
         ABOUT US
       </h2>
       <h2 className="text-[#FFFFFF] w-[651px] px-[2rem] mx-auto pb-[1rem] text-center z-[100] font-Inter font-[400] pt-[1rem] md:px-0 text-[14px] md:text-[16px] leading-[22px]">
