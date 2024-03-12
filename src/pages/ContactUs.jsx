@@ -24,7 +24,7 @@ const ContactUs = () => {
     e.preventDefault();
     console.log("Form Data:", formData);
   
-    fetch("https://formsubmit.co/ajax/olatunjitolulope4@gmail.com", {
+    fetch("https://formsubmit.co/ajax/hello@designwithskyle.com", {
       method: "POST",
       headers: { 
         'Content-Type': 'application/json',
