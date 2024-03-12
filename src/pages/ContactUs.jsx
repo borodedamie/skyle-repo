@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-
+import React, { useState, useEffect } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Creativegif from "../assets/gif/creative.gif";
 import { NavLink } from "react-router-dom";
 
@@ -22,30 +23,40 @@ const ContactUs = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form Data:", formData);
-
-    fetch("https://formsubmit.co/ajax/hello@designwithskyle.com", {
+  
+    fetch("https://formsubmit.co/ajax/olatunjitolulope4@gmail.com", {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
+      headers: { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
       },
-      body: JSON.stringify(formData),
+      body: JSON.stringify(formData)
     })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        return response.json();
-      })
-      .then((data) => {
-        console.log("Response Data:", data);
-        // Add any additional handling here if needed
-      })
-      .catch((error) => {
-        console.error("Error during form submission:", error);
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.json();
+    })
+    .then(data => {
+      console.log("Response Data:", data);
+      // Display success toast notification
+      toast.success('Form submitted successfully!');
+      // Clear form data after successful submission
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        message: "",
       });
+    })
+    .catch(error => {
+      console.error('Error during form submission:', error);
+      // Display error toast notification
+      toast.error('Failed to submit form. Please try again later.');
+    });
   };
-
   return (
     <div className="contact-us">
       <svg
@@ -344,6 +355,19 @@ const ContactUs = () => {
               <p>Back to home</p>
             </NavLink>
           </div>
+          <ToastContainer
+position="top-right"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="light"
+/>
+
         </form>
       </div>
     </div>
