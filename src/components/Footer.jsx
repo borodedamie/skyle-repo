@@ -25,7 +25,7 @@ const Footer = () => {
           </p>
          
           <p className="text-[16px] py-[.3rem] md:py-1 font-Helvetica leading-[18.4px] font-[400]">
-            info@skyledesignsstudios.com
+            hello@designwithskyle.com
           </p>
         </div>
       </div>

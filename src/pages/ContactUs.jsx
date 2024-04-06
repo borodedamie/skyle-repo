@@ -287,7 +287,7 @@ const ContactUs = () => {
             </svg>
           </div>
           <h6>Email Us</h6>
-          <a href="mailto:info@designwithskyle.com">info@designwithskyle.com</a>
+          <a href="mailto:info@designwithskyle.com">hello@designwithskyle.com</a>
         </div>
       </div>
       <div className="contact-us-form">
